@@ -3,14 +3,15 @@
  "target": {
   "scope": "Vintage (pre-~2005, ideally 80s/90s) tees and crewnecks from tool/trade brands: Milwaukee Electric Tools, Klein Tools, DeWalt, Snap-on, Mac Tools, Craftsman, Bosch, Makita, Hitachi, Hilti, Ryobi, Metabo, Husky, Matco, CAT, Stihl, Husqvarna, Black & Decker, Porter-Cable, Ingersoll-Rand, John Deere.",
   "size": "Men's L or XL only. 90s cuts run a size big — judge by pit-to-pit 22-24 in when stated; ask for measurements when not.",
-  "era": "Authenticate by evidence, never the word 'vintage': single stitch (pre-~1996), period blanks (Screen Stars, Hanes 50/50, Jerzees grid, Tultex USA, K-Products, Swingster, All Sport, Delta, Stedman, Velva Sheen, Lee), Made in USA. Honduras/Nicaragua/Bangladesh = late-90s+.",
+  "era": "Made before 2016 (Drew, 2026-10-05); 80s/90s preferred. Classic band = pre-2000, judged by single stitch, period blanks and Made in USA. Late band = 2000-2015, eligible ONLY with dating evidence (printed copyright year, dated event/race, driver/sponsor years, retired logo/platform such as Hitachi pre-HiKOKI or Milwaukee V28). Undatable 2000s-or-later = PASS (Klein: WATCH).",
   "hot": [
    "Any confirmed-vintage Klein Tools shirt/sweatshirt L/XL up to ~$75 (unicorn: ~3 vintage Klein tees exist on market, none L/XL)",
    "Milwaukee Electric Tools 80s/90s tee <=$60 or crew <=$90, L/XL",
    "Any single-stitch/pre-2000 tool-brand tee <=$30 or crew <=$50, L/XL",
-   "Named grails <=~$60: Sadler/Dotter DeWalt racing, Ernie Irvan / Davey Allison Mac Tools, 80s Screen Stars Snap-on"
+   "Named grails <=~$60: Sadler/Dotter DeWalt racing, Ernie Irvan / Davey Allison Mac Tools, 80s Screen Stars Snap-on",
+   "Late band (2000-2015, dated): Klein shirt/sweatshirt L/XL up to ~$75; other brands' graphic-led tee <=$20 or crew <=$35, L/XL, good condition"
   ],
-  "autoPass": "Print-on-demand (Gildan/Bella+Canvas/Next Level, 'S + more' menus, Located in Indonesia); brand retro reissues (Klein Est.1857/150th, Snap-on Faded USA Made/Retro Racing, Milwaukee 1924 heritage); listings hiding the tag; parody prints. DeWalt era: Sadler/Dotter=mid-90s, Kenseth #17 Chevy=1998-99, Kenseth #17 Ford=2000s (not 90s despite titles), Kenseth #20=modern. Kurt Busch was never DeWalt.",
+  "autoPass": "Print-on-demand (Gildan/Bella+Canvas/Next Level, 'S + more' menus, Located in Indonesia); brand retro reissues (Klein Est.1857/150th, Snap-on Faded USA Made/Retro Racing, Milwaukee 1924 heritage); listings hiding the tag; parody prints. DeWalt era: Sadler/Dotter=mid-90s, Kenseth #17 Chevy=1998-99, Kenseth #17 Ford=2000-12 (late band, not 90s despite titles), Kenseth #20=2013-15 late band only if dated. 2016+ markers: Milwaukee 1924/100th, Packout, ONE-KEY; Snap-on 100th; Metabo HPT/HiKOKI; DeWalt FlexVolt/Atomic; Ryobi ONE+ HP; Gildan Softstyle tear-away tags. Kurt Busch was never DeWalt.",
   "priceGuide": "Niche tiers (asks, no sold comps yet): $5-40 common / $40-100 good / $130-700 grail. OBO listings likely close 10-25% under ask.",
   "taste": "No flag-waving 'Made in America' graphics (giant AMERICAN/USA type, flag+eagle, 'Pride of America', patriotic flag prints): auto PASS-TASTE. Drew reads 90s anti-outsourcing patriotism as jingoistic now. A small 'Made in USA' line inside a brand graphic (e.g. 90s Milwaukee) is on the edge but OK; a plain eagle without the flag is OK."
  },
@@ -87,8 +88,8 @@
   {"id": "depop:coffincoughid-vintage-milwaukee-electric-tools-shirt-2bcd", "date": "2026-10-03", "verdict": "PASS", "why": "Real vintage Stedman single-stitch Milwaukee tee but size M, $28.94 — wrong size"},
   {"id": "depop:lightningvmg-crazy-vintage-90s-lightning-milwaukee-70c8", "date": "2026-10-03", "verdict": "PASS", "why": "90s Milwaukee sweater, size M — wrong size"},
   {"id": "depop:teo1o111-fitted-vintage-90s-klein-tools-1faa", "date": "2026-10-03", "verdict": "PASS", "why": "'90s' Klein tee on a Gildan blank, size M — reprint-grade doubt + wrong size"},
-  {"id": "ebay:188280670687", "date": "2026-10-03", "verdict": "PASS", "why": "Klein Est. 1857 logo tee, XL, $23 — modern design (2000s-2010s)"},
-  {"id": "ebay:225913928272", "date": "2026-10-03", "verdict": "PASS", "why": "Klein Hanes Beefy, XL, made in Bangladesh = 2000s+, seller ticked Vintage: Yes anyway"},
+  {"id": "ebay:188280670687", "date": "2026-10-03", "verdict": "PASS", "why": "Klein Est. 1857 logo tee, XL, $23 — modern design (2000s-2010s) | 2026-10-05 pre-2016 rule: re-checked, no dating evidence"},
+  {"id": "ebay:225913928272", "date": "2026-10-03", "verdict": "WATCH", "why": "Klein Hanes Beefy, XL, made in Bangladesh = 2000s+, seller ticked Vintage: Yes anyway | 2026-10-05 pre-2016 rule: re-checked, no dating evidence; orange Hanes Beefy, XL 23in, unworn in bag, $22. Klein undatable = WATCH"},
   {"id": "ebay:800629489184", "date": "2026-10-03", "verdict": "PASS", "why": "NOS 70s Russell Athletic orange Klein ad tee, $45 — the best vintage Klein shirt in existence but size S; keep as proof the design exists, alert on larger sizes"},
   {"id": "depop:frsh4xess-true-vintage-70s-russell-athletic-d31b", "date": "2026-10-03", "verdict": "PASS", "why": "Same 70s Russell Klein design, used, $34.19 — also size S"},
   {"id": "vinted:10163696846", "date": "2026-10-03", "verdict": "PASS", "why": "Klein Tools Hanes tee, L, $1 — detail page wouldn't load, era unverifiable; recheck if it resurfaces"},
@@ -207,7 +208,7 @@
   {"id": "ebay:397714747548", "date": "2026-10-05", "verdict": "WATCH", "why": "90s Hitachi 'Mean Green Building Machine', XL, Platinum Plus single stitch USA, GBP30 OBO; UK seller"},
   {"id": "mercarijp:2JSVZ3zJzNE872YSjVnqJK", "date": "2026-10-05", "verdict": "WATCH", "why": "Hitachi 'Mean Green Building Machine' black, Hanes 50/50 Mexico single stitch, 55.5cm (21.9in), stains, JPY8,360"},
   {"id": "ebay:407250172235", "date": "2026-10-05", "verdict": "PASS", "why": "Hitachi 'Mean Green' crew, 2XL, stained"},
-  {"id": "ebay:196982075226", "date": "2026-10-05", "verdict": "PASS", "why": "Hitachi 'Stay Back 100 Feet' tee, Hanes XL; printed web URL = 2000s"},
+  {"id": "ebay:196982075226", "date": "2026-10-05", "verdict": "WATCH", "why": "Hitachi 'Stay Back 100 Feet' tee, Hanes XL; printed web URL = 2000s | 2026-10-05 pre-2016 rule: Hitachi branding + web URL = ~2000-2017, roughly in window; $24.99 is over the late tee band"},
   {"id": "ebay:306789157634", "date": "2026-10-05", "verdict": "WATCH", "why": "1980 Hilti 'Great Rat Race', L, Super Screen Stars, $39.99 OBO; only real vintage Hilti seen"},
   {"id": "ebay:407122897533", "date": "2026-10-05", "verdict": "PASS", "why": "90s Hilti WEK sweatshirt, 2XL, USA; size"},
   {"id": "ebay:397295171280", "date": "2026-10-05", "verdict": "WATCH", "why": "90s Bosch Power Tools SDS-max Hammers promo, L, Hanes Beefy, deadstock, $39.95"},
@@ -219,6 +220,15 @@
   {"id": "mercarijp:m93479391861", "date": "2026-10-05", "verdict": "PASS", "why": "Ryobi 'Pro Features. Affordable Prices.' tee, ryobitools.com URL, modern"},
   {"id": "ebay:318437324873", "date": "2026-10-05", "verdict": "PASS-TASTE", "why": "Craftsman single-stitch USA 'patriotic flag' tee, XL, $30; flag-waving graphic"},
   {"id": "ebay:257765500228", "date": "2026-10-05", "verdict": "PASS", "why": "Husky Tools spellout polo; only Husky apparel found, polo"},
-  {"id": "vinted:metabo-sweep-2026-10-05", "date": "2026-10-05", "verdict": "PASS", "why": "Metabo on Vinted DE/EU: only modern dealer freebies (EUR2-15); no vintage apparel found. Kleinanzeigen: zero results"}
+  {"id": "vinted:metabo-sweep-2026-10-05", "date": "2026-10-05", "verdict": "PASS", "why": "Metabo on Vinted DE/EU: only modern dealer freebies (EUR2-15); no vintage apparel found. Kleinanzeigen: zero results"},
+  {"id": "ebay:128069321649", "date": "2026-10-05", "verdict": "WATCH", "why": "Klein Est.1857 lineman-circle ringer, Port & Company, XL, $9 OBO; undatable (logo used for decades)"},
+  {"id": "ebay:298612224835", "date": "2026-10-05", "verdict": "PASS", "why": "Klein 'All Hail the Rail' bucket organizer tee, Gildan Softstyle; late 2010s+ product merch"},
+  {"id": "ebay:278240795184", "date": "2026-10-05", "verdict": "PASS", "why": "Klein hi-vis yellow Port & Company tee; own specifics say 2020s"},
+  {"id": "ebay:117429535947", "date": "2026-10-05", "verdict": "PASS", "why": "Klein graphic tee, 2XL, own specifics say 2020s"},
+  {"id": "ebay:168169330240", "date": "2026-10-05", "verdict": "WATCH", "why": "Milwaukee 'Smooth From The Start' two-sided tee, L, Bayside USA, NWOT, $11.99; plausibly early 2000s but undated (Bayside USA is still made today)"},
+  {"id": "ebay:168555326797", "date": "2026-10-05", "verdict": "PASS", "why": "Milwaukee V28 lithium promo tee (2005-10, in window), but 2XL and fair condition, $54.99"},
+  {"id": "ebay:137672114940", "date": "2026-10-05", "verdict": "WATCH", "why": "2001 Mac Tools Gatornationals, L, Jerzees Honduras, $21.24 OBO; dated late band, just over $20"},
+  {"id": "ebay:198114012653", "date": "2026-10-05", "verdict": "WATCH", "why": "Team Makita Suzuki Ricky Carmichael long sleeve, XL, excellent, $25; late band, long sleeve"},
+  {"id": "ebay:158295867378", "date": "2026-10-05", "verdict": "WATCH", "why": "Rockstar Makita Suzuki tee, XL, $24.99 OBO; 2009-ish late band, over $20"}
  ]
 }
