@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-04",
+ "updated": "2026-10-05",
  "target": {
   "scope": "Vintage (pre-~2005, ideally 80s/90s) tees and crewnecks from tool/trade brands: Milwaukee Electric Tools, Klein Tools, DeWalt, Snap-on, Mac Tools, Matco, CAT, Craftsman, Stihl, Husqvarna, Black & Decker, Bosch, Porter-Cable, Ingersoll-Rand, John Deere.",
   "size": "Men's L or XL only. 90s cuts run a size big — judge by pit-to-pit 22-24 in when stated; ask for measurements when not.",
@@ -23,12 +23,14 @@
    "mercari",
    "vinted",
    "google/bing web index",
-   "gem.app"
+   "gem.app",
+   "mercari japan (jp.mercari.com)",
+   "yahoo! auctions japan"
   ],
   "blocked": [
    "ebay sold/completed comps (CAPTCHA + sign-in wall)"
   ],
-  "notes": "eBay/Etsy/Grailed/Depop/Mercari 403 plain WebFetch — use browser pane; Mercari and Facebook need real Chrome. Depop prices include buyer fees. Grailed is a markup market: find the piece there, buy it on eBay/Mercari. Gem (gem.app) aggregates everything incl. indie shops. Facebook Marketplace not yet swept for this hunt. 2026-10-04: eBay search pages sometimes return 'Error Page' on navigate; in-page fetch('/sch/...') and fetch('/itm/...') from an ebay.com tab work and parse fine. Etsy/Depop/Poshmark also work via same-origin fetch after loading the homepage."
+  "notes": "eBay/Etsy/Grailed/Depop/Mercari 403 plain WebFetch — use browser pane; Mercari and Facebook need real Chrome. Depop prices include buyer fees. Grailed is a markup market: find the piece there, buy it on eBay/Mercari. Gem (gem.app) aggregates everything incl. indie shops. Facebook Marketplace not yet swept for this hunt. 2026-10-04: eBay search pages sometimes return 'Error Page' on navigate; in-page fetch('/sch/...') and fetch('/itm/...') from an ebay.com tab work and parse fine. Etsy/Depop/Poshmark also work via same-origin fetch after loading the homepage. 2026-10-05 Makita probe: US eBay 'makita' clothing is mostly POD spam ('Made in USA/AUS S-2XL') + 2000s Team Makita Suzuki MX. Japanese supply lives on jp.mercari.com and auctions.yahoo.co.jp (both render in the in-app browser; search 'makita 企業', 'マキタ 古着', 'マキタ Tシャツ'). Japanese tags run a size small — judge only by 身幅 (body width) in cm: 56-61cm = 22-24in. Buying needs a proxy (Buyee/ZenMarket), roughly +$25-40 landed."
  },
  "seen": [
   {"id": "ebay:317382112661", "date": "2026-10-03", "verdict": "HOT", "why": "90s Ernie Irvan Mac Tools AOP tee, L, All Sport USA, $26.92 OBO — grail name at snipe price"},
@@ -183,6 +185,13 @@
   {"id": "depop:ocemche4e-mac-tools-racing-white-t-shirt-8be8", "date": "2026-10-04", "verdict": "PASS", "why": "Mac Tools Racing white tee, era unclear"},
   {"id": "depop:baysideveg-vintage-snap-on-tools-gray-pocket-a207", "date": "2026-10-04", "verdict": "PASS", "why": "Snap-on 'keep your cool' pocket tee, L, thrashed with hole"},
   {"id": "poshmark:Vintage-Makita-Power-Tools-TShirt-6abc4677f086edc5e5b1a33e", "date": "2026-10-04", "verdict": "PASS", "why": "Makita tee, L but 21in pit, holes"},
-  {"id": "poshmark:Vintage-Hanes-DeWalt-Challenge-Tee-XL-Black-Workwear-6aac28111696a76b632731e6", "date": "2026-10-04", "verdict": "PASS", "why": "Cross-listing of ebay:147580324795 (also mercari:m24883714632)"}
+  {"id": "poshmark:Vintage-Hanes-DeWalt-Challenge-Tee-XL-Black-Workwear-6aac28111696a76b632731e6", "date": "2026-10-04", "verdict": "PASS", "why": "Cross-listing of ebay:147580324795 (also mercari:m24883714632)"},
+  {"id": "yahoojp:p1147552876", "date": "2026-10-05", "verdict": "WATCH", "why": "Makita 'Hammers / Rock Solid' US promo tee, US XL, Oneita Power Pro Jamaica (late 90s), front stains, JPY9,800 (~$65 before proxy/shipping)"},
+  {"id": "yahoojp:v1240702140", "date": "2026-10-05", "verdict": "WATCH", "why": "Hanes Makita big-logo promo tee, XL, JPY15,900 (~$106); not opened, over band"},
+  {"id": "mercarijp:m90092820516", "date": "2026-10-05", "verdict": "PASS", "why": "90s Makita Power Tools raglan sweatshirt, Changes USA 50/50, tagged XL but 53cm (21in) body width, paint dot; too small"},
+  {"id": "mercarijp:m92933159302", "date": "2026-10-05", "verdict": "PASS", "why": "Makita 'ToolUp' pocket tee, Gildan 2XL, 2000s"},
+  {"id": "mercarijp:m17967470536", "date": "2026-10-05", "verdict": "GRAIL-COMP", "why": "MR. BIG x MAKITA band tee (Paul Gilbert drill era), no tag, JPY35,000 (~$233)"},
+  {"id": "ebay:406718671059", "date": "2026-10-05", "verdict": "PASS", "why": "80s Makita Japan Netherlands-store single-stitch tee, $42, but size S"},
+  {"id": "ebay:267590993629", "date": "2026-10-05", "verdict": "PASS", "why": "Team Makita Suzuki motocross hoodie, XL NWOT, $79.95; 2000s RC-era"}
  ]
 }
