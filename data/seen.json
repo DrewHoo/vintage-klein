@@ -1,7 +1,7 @@
 {
  "updated": "2026-10-05",
  "target": {
-  "scope": "Vintage (pre-~2005, ideally 80s/90s) tees and crewnecks from tool/trade brands: Milwaukee Electric Tools, Klein Tools, DeWalt, Snap-on, Mac Tools, Matco, CAT, Craftsman, Stihl, Husqvarna, Black & Decker, Bosch, Porter-Cable, Ingersoll-Rand, John Deere.",
+  "scope": "Vintage (pre-~2005, ideally 80s/90s) tees and crewnecks from tool/trade brands: Milwaukee Electric Tools, Klein Tools, DeWalt, Snap-on, Mac Tools, Craftsman, Bosch, Makita, Hitachi, Hilti, Ryobi, Metabo, Husky, Matco, CAT, Stihl, Husqvarna, Black & Decker, Porter-Cable, Ingersoll-Rand, John Deere.",
   "size": "Men's L or XL only. 90s cuts run a size big — judge by pit-to-pit 22-24 in when stated; ask for measurements when not.",
   "era": "Authenticate by evidence, never the word 'vintage': single stitch (pre-~1996), period blanks (Screen Stars, Hanes 50/50, Jerzees grid, Tultex USA, K-Products, Swingster, All Sport, Delta, Stedman, Velva Sheen, Lee), Made in USA. Honduras/Nicaragua/Bangladesh = late-90s+.",
   "hot": [
@@ -11,7 +11,8 @@
    "Named grails <=~$60: Sadler/Dotter DeWalt racing, Ernie Irvan / Davey Allison Mac Tools, 80s Screen Stars Snap-on"
   ],
   "autoPass": "Print-on-demand (Gildan/Bella+Canvas/Next Level, 'S + more' menus, Located in Indonesia); brand retro reissues (Klein Est.1857/150th, Snap-on Faded USA Made/Retro Racing, Milwaukee 1924 heritage); listings hiding the tag; parody prints. DeWalt era: Sadler/Dotter=mid-90s, Kenseth #17 Chevy=1998-99, Kenseth #17 Ford=2000s (not 90s despite titles), Kenseth #20=modern. Kurt Busch was never DeWalt.",
-  "priceGuide": "Niche tiers (asks, no sold comps yet): $5-40 common / $40-100 good / $130-700 grail. OBO listings likely close 10-25% under ask."
+  "priceGuide": "Niche tiers (asks, no sold comps yet): $5-40 common / $40-100 good / $130-700 grail. OBO listings likely close 10-25% under ask.",
+  "taste": "No flag-waving 'Made in America' graphics (giant AMERICAN/USA type, flag+eagle, 'Pride of America', patriotic flag prints): auto PASS-TASTE. Drew reads 90s anti-outsourcing patriotism as jingoistic now. A small 'Made in USA' line inside a brand graphic (e.g. 90s Milwaukee) is on the edge but OK; a plain eagle without the flag is OK."
  },
  "channels": {
   "searched": [
@@ -25,7 +26,10 @@
    "google/bing web index",
    "gem.app",
    "mercari japan (jp.mercari.com)",
-   "yahoo! auctions japan"
+   "yahoo! auctions japan",
+   "vinted (de/eu)",
+   "kleinanzeigen.de",
+   "ebay.de"
   ],
   "blocked": [
    "ebay sold/completed comps (CAPTCHA + sign-in wall)"
@@ -38,7 +42,7 @@
   {"id": "depop:liyinlowvintage-90s-nascar-herbie-sadler-racing-570d", "date": "2026-10-03", "verdict": "HOT", "why": "90s Sadler DeWalt tee, L tag but runs small (20.75x29.5 — borderline for Drew), Delta single stitch, $19.49"},
   {"id": "ebay:134941781500", "date": "2026-10-03", "verdict": "HOT", "why": "90s Milwaukee Electric pocket promo tee, L, Gildan Canada 1990-99, $19.99 OBO; light print cracking"},
   {"id": "ebay:147580324795", "date": "2026-10-03", "verdict": "HOT", "why": "DeWalt Challenge 'Take It!' Hanes Beefy-T, XL, single-stitch hem USA, $19.20 OBO; light front stain; also $24 on Mercari"},
-  {"id": "ebay:198672127357", "date": "2026-10-03", "verdict": "HOT", "why": "90s Snap-on USA flag tee, XL, Jerzees 50/50 USA, $35 OBO"},
+  {"id": "ebay:198672127357", "date": "2026-10-03", "verdict": "PASS-TASTE", "why": "90s Snap-on USA flag tee, XL, Jerzees 50/50 USA, $35 OBO | 2026-10-05: re-tiered PASS-TASTE (USA-flag graphic); Drew finds 90s made-in-America flag-waving jingoistic"},
   {"id": "ebay:820048258975", "date": "2026-10-03", "verdict": "HOT", "why": "1995 Snap-on 75th Anniversary Orlando tee, L, Jerzees USA, excellent, $36 OBO"},
   {"id": "ebay:366320984525", "date": "2026-10-03", "verdict": "HOT", "why": "90s Milwaukee Electric Tools tee, XL (22x30), single stitch, K-Products USA, $40"},
   {"id": "ebay:366599968103", "date": "2026-10-03", "verdict": "HOT", "why": "90s Black & Decker Hammer Drill tee, L, FOTL single stitch, $39.99 OBO"},
@@ -117,8 +121,8 @@
   {"id": "ebay:178545600361", "date": "2026-10-04", "verdict": "HOT", "why": "90s Davey Allison Mac Tools tee, L, American Eagle USA, excellent, $28 OBO; cross-listed etsy:4514705875 + Poshmark"},
   {"id": "ebay:820175403218", "date": "2026-10-04", "verdict": "HOT", "why": "1996 Snap-on Racing 'Get Into the Zone', XL, Jerzees USA, excellent, $27.10 OBO"},
   {"id": "ebay:206577958168", "date": "2026-10-04", "verdict": "HOT", "why": "90s Snap-on Racing checkered tee, XL, Sports Image USA single stitch, faded, $25.50 OBO"},
-  {"id": "ebay:117409838144", "date": "2026-10-04", "verdict": "HOT", "why": "90s Snap-on '59 Corvette 'Always American', XL (48 chest), Printworks, NWOT, $17.50 OBO"},
-  {"id": "ebay:307207440319", "date": "2026-10-04", "verdict": "HOT", "why": "90s Snap-on 'Pride of America' eagle, L, Screen Stars 50/50 USA, stains, $25 OBO"},
+  {"id": "ebay:117409838144", "date": "2026-10-04", "verdict": "PASS-TASTE", "why": "90s Snap-on '59 Corvette 'Always American', XL (48 chest), Printworks, NWOT, $17.50 OBO | 2026-10-05: re-tiered PASS-TASTE ('59 Corvette under a giant flag-striped AMERICAN); Drew finds 90s made-in-America flag-waving jingoistic"},
+  {"id": "ebay:307207440319", "date": "2026-10-04", "verdict": "PASS-TASTE", "why": "90s Snap-on 'Pride of America' eagle, L, Screen Stars 50/50 USA, stains, $25 OBO | 2026-10-05: re-tiered PASS-TASTE ('Pride of America' eagle + flag); Drew finds 90s made-in-America flag-waving jingoistic"},
   {"id": "ebay:137805260891", "date": "2026-10-04", "verdict": "HOT", "why": "80s Snap-on red-yoke jersey tee, XL, single stitch USA, excellent, $29 OBO; also Poshmark $29"},
   {"id": "ebay:237106511637", "date": "2026-10-04", "verdict": "HOT", "why": "1988 Earnhardt Mac Tools 'Driven To Be The Best', L, single stitch, light stains, $40 OBO; above snipe band, ask p2p"},
   {"id": "etsy:4571562961", "date": "2026-10-04", "verdict": "HOT", "why": "1994 Mac Tools Gatornationals, L 22.5x27, single stitch, no flaws, $25.99"},
@@ -127,7 +131,7 @@
   {"id": "ebay:178517188149", "date": "2026-10-04", "verdict": "HOT", "why": "90s Ingersoll-Rand impact-wrench Daytona promo, XL, Hanes USA, excellent, $29.99 OBO"},
   {"id": "ebay:257014974484", "date": "2026-10-04", "verdict": "HOT", "why": "Ingersoll-Rand Rupp 'Night at the Races', XL, FOTL Best USA, C$31.10 (~US$22) OBO"},
   {"id": "ebay:198633223091", "date": "2026-10-04", "verdict": "HOT", "why": "1991 Snap-on 'Takin' It to the Limit' monster truck crew, L, Fruit, NWOT, $34.99 OBO"},
-  {"id": "ebay:227542913925", "date": "2026-10-04", "verdict": "HOT", "why": "90s Snap-on 'An American Classic' crew, L, USA, excellent, $46.99 OBO"},
+  {"id": "ebay:227542913925", "date": "2026-10-04", "verdict": "PASS-TASTE", "why": "90s Snap-on 'An American Classic' crew, L, USA, excellent, $46.99 OBO | 2026-10-05: re-tiered PASS-TASTE (eagle + flag + 'An American Classic'); Drew finds 90s made-in-America flag-waving jingoistic"},
   {"id": "ebay:188910297096", "date": "2026-10-04", "verdict": "HOT", "why": "90s Snap-on 'Go for the Gold' St Patrick's crew, XL, USA, $19.99 OBO"},
   {"id": "ebay:318867927759", "date": "2026-10-04", "verdict": "HOT", "why": "80s Snap-on La Mode color-block crew, XL, USA, $34 OBO"},
   {"id": "depop:mt_vintage23-vintage-90s-milwaukee-tools-fruit-193a", "date": "2026-10-04", "verdict": "HOT", "why": "90s 'Genuine Milwaukee American' navy crew, XL, FOTL, faded, $31.98"},
@@ -138,7 +142,7 @@
   {"id": "ebay:168747766177", "date": "2026-10-04", "verdict": "WATCH", "why": "1993 Earnhardt Mac Tools, L, Sports Image single stitch, $39.99 OBO; Depop copy $21.59"},
   {"id": "ebay:336799481437", "date": "2026-10-04", "verdict": "WATCH", "why": "'91 Earnhardt 1990 Champion 'Wrench of Champions' Mac Tools, L, Delta NWOT, $58.99 OBO"},
   {"id": "ebay:168751646629", "date": "2026-10-04", "verdict": "WATCH", "why": "1998 Mac Tools Gatornationals, XL, Jerzees USA, excellent, $29.99 OBO; event tee, minor"},
-  {"id": "ebay:267784527547", "date": "2026-10-04", "verdict": "WATCH", "why": "90s Mac Tools USA wings tee, XL, Jerzees, $19.99 OBO; plain logo graphic"},
+  {"id": "ebay:267784527547", "date": "2026-10-04", "verdict": "PASS-TASTE", "why": "90s Mac Tools USA wings tee, XL, Jerzees, $19.99 OBO; plain logo graphic | 2026-10-05: re-tiered PASS-TASTE (Mac Tools 'Made in the USA' wings graphic); Drew finds 90s made-in-America flag-waving jingoistic"},
   {"id": "poshmark:Vintage-Swingster-Sz-L-MAC-TOOLS-Hand-picked-by-the-pros-Black-Tshirt-6ab989bf7789eab5e6a47545", "date": "2026-10-04", "verdict": "WATCH", "why": "Swingster Mac Tools 'Hand picked by the pros' tee, L, $28; era not tag-verified"},
   {"id": "ebay:158224484856", "date": "2026-10-04", "verdict": "WATCH", "why": "90s Craftsman 'Real Men Don't Need Instructions', L, USA, $20"},
   {"id": "ebay:135927676465", "date": "2026-10-04", "verdict": "WATCH", "why": "90s Craftsman 'Keep Your Hands Off My' Hanes Beefy, XL, $23; flaws in description"},
@@ -192,6 +196,29 @@
   {"id": "mercarijp:m92933159302", "date": "2026-10-05", "verdict": "PASS", "why": "Makita 'ToolUp' pocket tee, Gildan 2XL, 2000s"},
   {"id": "mercarijp:m17967470536", "date": "2026-10-05", "verdict": "GRAIL-COMP", "why": "MR. BIG x MAKITA band tee (Paul Gilbert drill era), no tag, JPY35,000 (~$233)"},
   {"id": "ebay:406718671059", "date": "2026-10-05", "verdict": "PASS", "why": "80s Makita Japan Netherlands-store single-stitch tee, $42, but size S"},
-  {"id": "ebay:267590993629", "date": "2026-10-05", "verdict": "PASS", "why": "Team Makita Suzuki motocross hoodie, XL NWOT, $79.95; 2000s RC-era"}
+  {"id": "ebay:267590993629", "date": "2026-10-05", "verdict": "PASS", "why": "Team Makita Suzuki motocross hoodie, XL NWOT, $79.95; 2000s RC-era"},
+  {"id": "ebay:298252633308", "date": "2026-10-05", "verdict": "HOT", "why": "90s Bosch Power Tools gray crew, chest logo, ringer cuffs, XL, USA, $29.99 OBO"},
+  {"id": "ebay:165312145200", "date": "2026-10-05", "verdict": "HOT", "why": "90s Craftsman 'There Are Guarantees in Life' crew, XL, FOTL USA, NWT, $36.50"},
+  {"id": "ebay:306005683693", "date": "2026-10-05", "verdict": "WATCH", "why": "Same Craftsman 'Guarantees' crew, XL, USA, arm spots, $38.95 OBO"},
+  {"id": "ebay:225269874107", "date": "2026-10-05", "verdict": "WATCH", "why": "Craftsman 'Guarantees' crew, black, L, FOTL USA, $65 OBO; over band"},
+  {"id": "etsy:4588732999", "date": "2026-10-05", "verdict": "WATCH", "why": "Craftsman cream FOTL crew, XL, USA, fair; likely the 'Guarantees' design, not opened"},
+  {"id": "ebay:365726818782", "date": "2026-10-05", "verdict": "WATCH", "why": "90s Craftsman 'Man's Best Friend', XL, single stitch USA, $41.95 OBO"},
+  {"id": "ebay:397719341275", "date": "2026-10-05", "verdict": "WATCH", "why": "Craftsman 'Keep Your Hands Off My' tee, XL, USA, $37.95 OBO; same design $23 at ebay:135927676465"},
+  {"id": "ebay:397714747548", "date": "2026-10-05", "verdict": "WATCH", "why": "90s Hitachi 'Mean Green Building Machine', XL, Platinum Plus single stitch USA, GBP30 OBO; UK seller"},
+  {"id": "mercarijp:2JSVZ3zJzNE872YSjVnqJK", "date": "2026-10-05", "verdict": "WATCH", "why": "Hitachi 'Mean Green Building Machine' black, Hanes 50/50 Mexico single stitch, 55.5cm (21.9in), stains, JPY8,360"},
+  {"id": "ebay:407250172235", "date": "2026-10-05", "verdict": "PASS", "why": "Hitachi 'Mean Green' crew, 2XL, stained"},
+  {"id": "ebay:196982075226", "date": "2026-10-05", "verdict": "PASS", "why": "Hitachi 'Stay Back 100 Feet' tee, Hanes XL; printed web URL = 2000s"},
+  {"id": "ebay:306789157634", "date": "2026-10-05", "verdict": "WATCH", "why": "1980 Hilti 'Great Rat Race', L, Super Screen Stars, $39.99 OBO; only real vintage Hilti seen"},
+  {"id": "ebay:407122897533", "date": "2026-10-05", "verdict": "PASS", "why": "90s Hilti WEK sweatshirt, 2XL, USA; size"},
+  {"id": "ebay:397295171280", "date": "2026-10-05", "verdict": "WATCH", "why": "90s Bosch Power Tools SDS-max Hammers promo, L, Hanes Beefy, deadstock, $39.95"},
+  {"id": "ebay:168145853793", "date": "2026-10-05", "verdict": "WATCH", "why": "80s Bosch tiny-wordmark navy tee, L, Screen Stars single stitch USA, $25 OBO; which Bosch division is unclear"},
+  {"id": "ebay:257670507394", "date": "2026-10-05", "verdict": "PASS", "why": "Bosch Tools tee, Port & Company Honduras, 2000s"},
+  {"id": "ebay:137648727057", "date": "2026-10-05", "verdict": "PASS", "why": "Bosch / CK&W Supply bulldog tee, Gildan, modern"},
+  {"id": "mercarijp:m38568498528", "date": "2026-10-05", "verdict": "WATCH", "why": "Late-80s Milwaukee script + Pelham Tool Inc. (Port Chester NY) dealer tee, red, single stitch, no tag, 63cm (24.8in), JPY9,800"},
+  {"id": "mercarijp:m43095737799", "date": "2026-10-05", "verdict": "PASS", "why": "Ryobi logo tee, XL 59.5cm, JPY11,500; Gildan-era modern"},
+  {"id": "mercarijp:m93479391861", "date": "2026-10-05", "verdict": "PASS", "why": "Ryobi 'Pro Features. Affordable Prices.' tee, ryobitools.com URL, modern"},
+  {"id": "ebay:318437324873", "date": "2026-10-05", "verdict": "PASS-TASTE", "why": "Craftsman single-stitch USA 'patriotic flag' tee, XL, $30; flag-waving graphic"},
+  {"id": "ebay:257765500228", "date": "2026-10-05", "verdict": "PASS", "why": "Husky Tools spellout polo; only Husky apparel found, polo"},
+  {"id": "vinted:metabo-sweep-2026-10-05", "date": "2026-10-05", "verdict": "PASS", "why": "Metabo on Vinted DE/EU: only modern dealer freebies (EUR2-15); no vintage apparel found. Kleinanzeigen: zero results"}
  ]
 }
