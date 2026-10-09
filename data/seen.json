@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-08",
+ "updated": "2026-10-09",
  "target": {
   "scope": "Vintage (pre-~2005, ideally 80s/90s) tees and crewnecks from tool/trade brands: Milwaukee Electric Tools, Klein Tools, DeWalt, Husqvarna, Kubota, Craftsman, Bosch, Makita, Hitachi, Hilti, Ryobi, Metabo, Husky, Matco, CAT, Stihl, Husqvarna, Black & Decker, Porter-Cable, Ingersoll-Rand, John Deere. OUT OF SCOPE (Drew, 2026-10-06): Snap-on, Mac Tools, and racing shirts of any brand (NASCAR/NHRA/motocross, driver or race-team graphics, incl. DeWalt Sadler/Kenseth) = PASS-SCOPE. Husqvarna (chainsaw/forestry/lawn, not motocross or sewing) and Kubota (tractor/equipment dealer promos; deep supply in Japan as クボタ) are every-run brands (Drew, 2026-10-06).",
   "size": "Men's L or XL only. 90s cuts run a size big — judge by pit-to-pit 22-24 in when stated; ask for measurements when not.",
@@ -35,7 +35,7 @@
   "blocked": [
    "ebay sold/completed comps (CAPTCHA + sign-in wall)"
   ],
-  "notes": "eBay/Etsy/Grailed/Depop/Mercari 403 plain WebFetch — use browser pane; Mercari and Facebook need real Chrome. Depop prices include buyer fees. Grailed is a markup market: find the piece there, buy it on eBay/Mercari. Gem (gem.app) aggregates everything incl. indie shops. Facebook Marketplace not yet swept for this hunt. 2026-10-04: eBay search pages sometimes return 'Error Page' on navigate; in-page fetch('/sch/...') and fetch('/itm/...') from an ebay.com tab work and parse fine. Etsy/Depop/Poshmark also work via same-origin fetch after loading the homepage. 2026-10-05 Makita probe: US eBay 'makita' clothing is mostly POD spam ('Made in USA/AUS S-2XL') + 2000s Team Makita Suzuki MX. Japanese supply lives on jp.mercari.com and auctions.yahoo.co.jp (both render in the in-app browser; search 'makita 企業', 'マキタ 古着', 'マキタ Tシャツ'). Japanese tags run a size small — judge only by 身幅 (body width) in cm: 56-61cm = 22-24in. Buying needs a proxy (Buyee/ZenMarket), roughly +$25-40 landed. 2026-10-08: Mercari US works via the claude-in-chrome extension (navigate + JSON-LD on item pages; strip query strings or the output guard blocks). Gem throws a Human Verification CAPTCHA after ~3 searches. Depop sellers sometimes tag tool tees 'Supreme' for exposure, so Gem/Google catch what brand searches miss. Mercari JP fuzzy-matches クボタ to バックボタン; use 'kubota クボタ' in メンズ."
+  "notes": "eBay/Etsy/Grailed/Depop/Mercari 403 plain WebFetch — use browser pane; Mercari and Facebook need real Chrome. Depop prices include buyer fees. Grailed is a markup market: find the piece there, buy it on eBay/Mercari. Gem (gem.app) aggregates everything incl. indie shops. Facebook Marketplace not yet swept for this hunt. 2026-10-04: eBay search pages sometimes return 'Error Page' on navigate; in-page fetch('/sch/...') and fetch('/itm/...') from an ebay.com tab work and parse fine. Etsy/Depop/Poshmark also work via same-origin fetch after loading the homepage. 2026-10-05 Makita probe: US eBay 'makita' clothing is mostly POD spam ('Made in USA/AUS S-2XL') + 2000s Team Makita Suzuki MX. Japanese supply lives on jp.mercari.com and auctions.yahoo.co.jp (both render in the in-app browser; search 'makita 企業', 'マキタ 古着', 'マキタ Tシャツ'). Japanese tags run a size small — judge only by 身幅 (body width) in cm: 56-61cm = 22-24in. Buying needs a proxy (Buyee/ZenMarket), roughly +$25-40 landed. 2026-10-08: Mercari US works via the claude-in-chrome extension (navigate + JSON-LD on item pages; strip query strings or the output guard blocks). Gem throws a Human Verification CAPTCHA after ~3 searches. Depop sellers sometimes tag tool tees 'Supreme' for exposure, so Gem/Google catch what brand searches miss. Mercari JP fuzzy-matches クボタ to バックボタン; use 'kubota クボタ' in メンズ. 2026-10-09: the in-app browser tab can hang on a long awaited fetch; fire fetches into window vars and read them back in a second call. eBay item specifics parse best from body text after 'Item specifics'; the description iframe is cross-origin."
  },
  "seen": [
   {
@@ -2977,6 +2977,468 @@
    "date": "2026-10-08",
    "verdict": "PASS",
    "why": "Duplicate of grailed:107436114 / cross-listing of ebay:147580324795"
+  },
+  {
+   "id": "ebay:267648763899",
+   "date": "2026-10-09",
+   "verdict": "HOT",
+   "why": "DeWalt Challenge 'Take It' promo, sealed in distributor bag (Osterman API), Hanes Beefy-T Made in USA, XL, NWT, $11.99; specifics' 2020s year is seller boilerplate"
+  },
+  {
+   "id": "ebay:257382629003",
+   "date": "2026-10-09",
+   "verdict": "HOT",
+   "why": "Craftsman 'Behind every craftsman there's a Craftsman' / Bob Vila School For Craftsman, printed (c) 1995 Bob Vila Apparel + Sears TM, Craftsman Collection tag Made in USA, single-stitch sleeve, XL (~23-24in on yardstick), NWOT, $19.99"
+  },
+  {
+   "id": "ebay:297807777718",
+   "date": "2026-10-09",
+   "verdict": "WATCH",
+   "why": "CAT 'Pushy' bulldozer, single stitch USA, XL, NWT, $55.99 OBO; cheaper copy of the 1993 tee carded at $74.99 (ebay:377517842104)"
+  },
+  {
+   "id": "ebay:267807399525",
+   "date": "2026-10-09",
+   "verdict": "PASS",
+   "why": "Stihl suspenders tee, K-Products USA, 2XL with small tan stains, $39.55 OBO; over band and likely past 24in"
+  },
+  {
+   "id": "ebay:366703882722",
+   "date": "2026-10-09",
+   "verdict": "PASS",
+   "why": "1970s Stihl 'Stihl's The One' Hi Cru single stitch, size M, fair condition, $38"
+  },
+  {
+   "id": "ebay:920000811619",
+   "date": "2026-10-09",
+   "verdict": "PASS",
+   "why": "Milwaukee Tools Swingster denim trucker jacket, XXL, $45; jacket, out of scope"
+  },
+  {
+   "id": "ebay:137621847219",
+   "date": "2026-10-09",
+   "verdict": "PASS",
+   "why": "NWT 90s USA Milwaukee Electric Tools jacket, XL, $51.96; jacket, out of scope, notable"
+  },
+  {
+   "id": "ebay:298540382097",
+   "date": "2026-10-09",
+   "verdict": "PASS",
+   "why": "80s Milwaukee Electric Tools and Service Co bomber, XL, $34.90; jacket, out of scope, notable"
+  },
+  {
+   "id": "ebay:398120850738",
+   "date": "2026-10-09",
+   "verdict": "PASS",
+   "why": "90s DeWalt wool/leather varsity jacket, L, $78; jacket, out of scope"
+  },
+  {
+   "id": "ebay:287605427850",
+   "date": "2026-10-09",
+   "verdict": "PASS",
+   "why": "90s Craftsman 'Man's Best Friend' muscle tank, Murina, XL, $27.99; sleeveless, not a tee"
+  },
+  {
+   "id": "ebay:257714788800",
+   "date": "2026-10-09",
+   "verdict": "PASS",
+   "why": "Craftsman graphic polo, L/XL, $39.99; polo, thin, faded collar"
+  },
+  {
+   "id": "ebay:137296299125",
+   "date": "2026-10-09",
+   "verdict": "PASS",
+   "why": "DeWalt promo tee 2XL, specifics 2020s, Vintage: No"
+  },
+  {
+   "id": "ebay:278321661613",
+   "date": "2026-10-09",
+   "verdict": "PASS",
+   "why": "DeWalt 'Expert Performance' poly tee, 2XL big & tall, modern"
+  },
+  {
+   "id": "ebay:226963105541",
+   "date": "2026-10-09",
+   "verdict": "PASS",
+   "why": "Klein sleeveless tee L, specifics 2020s, Vintage: No"
+  },
+  {
+   "id": "ebay:235501505453",
+   "date": "2026-10-09",
+   "verdict": "PASS",
+   "why": "Klein logo tee on Gildan, modern"
+  },
+  {
+   "id": "ebay:386650071443",
+   "date": "2026-10-09",
+   "verdict": "PASS",
+   "why": "Husqvarna 'Husky' K-Products tee, M, Vintage: No in specifics"
+  },
+  {
+   "id": "ebay:317162885375",
+   "date": "2026-10-09",
+   "verdict": "PASS",
+   "why": "Husqvarna chainsaws Wright Bros dealer sweatshirt, size M, $29.99"
+  },
+  {
+   "id": "ebay:198625175953",
+   "date": "2026-10-09",
+   "verdict": "PASS",
+   "why": "Milwaukee Tools red tee 2XL, seller dates mid-2000s, no dating evidence"
+  },
+  {
+   "id": "ebay:167013428268",
+   "date": "2026-10-09",
+   "verdict": "PASS",
+   "why": "Milwaukee Bayside tee, M, undated late band"
+  },
+  {
+   "id": "ebay:405900171454",
+   "date": "2026-10-09",
+   "verdict": "GRAIL-COMP",
+   "why": "80s Klein Tools Ironworker Lineman tee, XL, single stitch, ended (sold ~$24.99 per web index); proof XL Klein exists at sane prices"
+  },
+  {
+   "id": "ebay:227517357007",
+   "date": "2026-10-09",
+   "verdict": "PASS",
+   "why": "Black & Decker Swingster windbreaker XL, $22; jacket, out of scope"
+  },
+  {
+   "id": "poshmark:6a35860a3fd8e729a02d60f6",
+   "date": "2026-10-09",
+   "verdict": "HOT",
+   "why": "Craftsman Tools 'There Are Guarantees In Life' crew, cream FOTL Made in USA, XL, 24.5in pit, $20; listed fair, print crazing"
+  },
+  {
+   "id": "depop:adaoy80-vintage-kubota-parts-super-stocker-da5b",
+   "date": "2026-10-09",
+   "verdict": "HOT",
+   "why": "Kubota Parts 'Super Stocker' Parts Fair '94 dealer tee, single stitch, dated 1994, L, $28.93; checkered flags are a parts-fair motif, not a racing shirt"
+  },
+  {
+   "id": "poshmark:6a2f368d001542f10c71b9cc",
+   "date": "2026-10-09",
+   "verdict": "WATCH",
+   "why": "Craftsman 'There is no such thing as too many tools' tee, black, XL, $30; looks 90s, blank and stitch unconfirmed"
+  },
+  {
+   "id": "depop:beichcitytees-vtg-dewalt-t-shirt-mens-818d",
+   "date": "2026-10-09",
+   "verdict": "WATCH",
+   "why": "DeWalt Challenge 'Take It!' black single stitch XL $25.79; redundant, the sealed $11.99 eBay copy (ebay:267648763899) is better"
+  },
+  {
+   "id": "poshmark:6ac821e7d95f1d8542504498",
+   "date": "2026-10-09",
+   "verdict": "WATCH",
+   "why": "Same shirt as depop:beichcitytees DeWalt Challenge, $27 on Poshmark"
+  },
+  {
+   "id": "depop:thriftmangpy-vintage-hanes-dewalt-challenge-tee-231b",
+   "date": "2026-10-09",
+   "verdict": "PASS",
+   "why": "DeWalt Challenge / Cordless Not Gutless Hanes XL $27.89, light stain; likely cross-listing of an already-seen Poshmark copy, and the sealed $11.99 eBay copy beats it"
+  },
+  {
+   "id": "depop:retroali-this-vintage-dewalt-power-tools-d75f",
+   "date": "2026-10-09",
+   "verdict": "PASS",
+   "why": "90s USA DeWalt promo tee, 2XL, $21.58; wrong size"
+  },
+  {
+   "id": "depop:gomezthriftru-vintage-stihl-built-in-america-56e5",
+   "date": "2026-10-09",
+   "verdict": "PASS-TASTE",
+   "why": "Stihl 'Built in America' eagle over flag, Bayside XL"
+  },
+  {
+   "id": "depop:vaultvaluede5ls-kubota-t-shirt-mens-large-brown-5a9d",
+   "date": "2026-10-09",
+   "verdict": "PASS",
+   "why": "Kubota tee on Hanes Tagless, modern"
+  },
+  {
+   "id": "poshmark:6ac71999a6e36a53a1f1d3a8",
+   "date": "2026-10-09",
+   "verdict": "PASS",
+   "why": "Cross-listing of depop:vaultvaluede5ls Kubota, modern"
+  },
+  {
+   "id": "depop:soe_wuan-red-milwaukee-t-shirt-with-white-df9b",
+   "date": "2026-10-09",
+   "verdict": "PASS",
+   "why": "Modern Milwaukee Tool tee (lightning logo / 1924 / M18 era), no dating evidence"
+  },
+  {
+   "id": "depop:syk4k-red-milwaukee-tool-t-shirt-size-1c57",
+   "date": "2026-10-09",
+   "verdict": "PASS",
+   "why": "Modern Milwaukee Tool tee (lightning logo / 1924 / M18 era), no dating evidence"
+  },
+  {
+   "id": "depop:leiliby-milwaukee-red-tshirt-size-large-60e6",
+   "date": "2026-10-09",
+   "verdict": "PASS",
+   "why": "Modern Milwaukee Tool tee (lightning logo / 1924 / M18 era), no dating evidence"
+  },
+  {
+   "id": "depop:nolypolpvtg-y2k-vintage-faded-red-milwaukee-ee31",
+   "date": "2026-10-09",
+   "verdict": "PASS",
+   "why": "Modern Milwaukee Tool tee (lightning logo / 1924 / M18 era), no dating evidence"
+  },
+  {
+   "id": "depop:gee6time-vintage-2000s-red-milwaukee-tool-5cef",
+   "date": "2026-10-09",
+   "verdict": "PASS",
+   "why": "Modern Milwaukee Tool tee (lightning logo / 1924 / M18 era), no dating evidence"
+  },
+  {
+   "id": "depop:chrisqysims-milwaukee-gray-t-shirt-with-red-4216",
+   "date": "2026-10-09",
+   "verdict": "PASS",
+   "why": "Modern Milwaukee Tool tee (lightning logo / 1924 / M18 era), no dating evidence"
+  },
+  {
+   "id": "depop:7h7luckyren777-y2k-stihl-chainsaw-graphic-tee-b8a5",
+   "date": "2026-10-09",
+   "verdict": "PASS",
+   "why": "Stihl tee, no era evidence"
+  },
+  {
+   "id": "depop:emmtrz913-super-cool-and-soft-stihl-graphic-c744",
+   "date": "2026-10-09",
+   "verdict": "PASS",
+   "why": "Stihl tee, no era evidence"
+  },
+  {
+   "id": "depop:mhazel56f-stihl-gear-navy-blue-t-shirt-b781",
+   "date": "2026-10-09",
+   "verdict": "PASS",
+   "why": "Stihl tee, no era evidence"
+  },
+  {
+   "id": "depop:agoxy_4h2-black-dewalt-t-shirt-with-white-fa48",
+   "date": "2026-10-09",
+   "verdict": "PASS",
+   "why": "Modern DeWalt Guaranteed Tough store tee"
+  },
+  {
+   "id": "depop:salteltri-dewalt-heavyweight-long-sleeve-graphic-tee-9e74",
+   "date": "2026-10-09",
+   "verdict": "PASS",
+   "why": "Modern DeWalt 'Est. 1924' long sleeve"
+  },
+  {
+   "id": "depop:lancefitds131-husqvarna-blue-retro-tee-small-4d4e",
+   "date": "2026-10-09",
+   "verdict": "PASS",
+   "why": "Modern Husqvarna tee, small"
+  },
+  {
+   "id": "depop:vintage-hanes-nascar-dewalt-racing-ed47",
+   "date": "2026-10-09",
+   "verdict": "PASS-SCOPE",
+   "why": "DeWalt NASCAR racing tee"
+  },
+  {
+   "id": "depop:vintage-distressed-dewalt-racing-t-shirt-5331",
+   "date": "2026-10-09",
+   "verdict": "PASS-SCOPE",
+   "why": "DeWalt racing tee"
+  },
+  {
+   "id": "poshmark:6abbb4b9a81f93faf91d6b2e",
+   "date": "2026-10-09",
+   "verdict": "PASS",
+   "why": "Plain DeWalt logo tee XL $30, no era evidence"
+  },
+  {
+   "id": "poshmark:6a9f567f7789ea30d5989ee2",
+   "date": "2026-10-09",
+   "verdict": "PASS",
+   "why": "Milwaukee city/college-style 'W' crew, not the tools brand"
+  },
+  {
+   "id": "poshmark:6ac4cd3e394505a37a8aa8b4",
+   "date": "2026-10-09",
+   "verdict": "PASS",
+   "why": "Milwaukee Swingster USA polo, L, $17; polo, not a target"
+  },
+  {
+   "id": "poshmark:6a9e2d3e9b24d0eb2ce2c6f9",
+   "date": "2026-10-09",
+   "verdict": "PASS",
+   "why": "Craftsman 'Livin to Work' tee, L, 21in pit, modern"
+  },
+  {
+   "id": "poshmark:6a2e2f5bb591ede1a6e8b5cd",
+   "date": "2026-10-09",
+   "verdict": "PASS",
+   "why": "Craftsman 'Livin to Work' tee XL, modern"
+  },
+  {
+   "id": "poshmark:6ac08b807e297b88d6e8902a",
+   "date": "2026-10-09",
+   "verdict": "PASS",
+   "why": "Craftsman motorcycle tee, 21in pit, modern"
+  },
+  {
+   "id": "poshmark:6ab277d456502b53a2e0e145",
+   "date": "2026-10-09",
+   "verdict": "PASS",
+   "why": "Craftsman tee, no era evidence"
+  },
+  {
+   "id": "poshmark:613a4dc0f5c2446794c0661f",
+   "date": "2026-10-09",
+   "verdict": "PASS",
+   "why": "Klein on Gildan heat transfer, bootleg"
+  },
+  {
+   "id": "poshmark:6aaff4d7a0b935a9a0746c89",
+   "date": "2026-10-09",
+   "verdict": "PASS-TASTE",
+   "why": "Kubota flag design"
+  },
+  {
+   "id": "poshmark:695c89a47ac629b64c498f1b",
+   "date": "2026-10-09",
+   "verdict": "PASS",
+   "why": "Modern Kubota tee"
+  },
+  {
+   "id": "poshmark:659ce38cdff94d8e44fa40b8",
+   "date": "2026-10-09",
+   "verdict": "PASS",
+   "why": "Modern Kubota tee, XXL"
+  },
+  {
+   "id": "poshmark:65fce46bffb5d03d4c4931eb",
+   "date": "2026-10-09",
+   "verdict": "PASS",
+   "why": "Modern Kubota tee, M"
+  },
+  {
+   "id": "poshmark:6ac59c44970988116cf6dcc1",
+   "date": "2026-10-09",
+   "verdict": "PASS",
+   "why": "Modern DeWalt, 2XL"
+  },
+  {
+   "id": "poshmark:6ab02c43441b19057533336c",
+   "date": "2026-10-09",
+   "verdict": "PASS",
+   "why": "Modern Husqvarna tee"
+  },
+  {
+   "id": "poshmark:6ab88cd7adedd10ba4e55acd",
+   "date": "2026-10-09",
+   "verdict": "PASS-SCOPE",
+   "why": "Craftsman NASCAR robot tee"
+  },
+  {
+   "id": "poshmark:6864b33b3509d1b7808920f7",
+   "date": "2026-10-09",
+   "verdict": "PASS-SCOPE",
+   "why": "Craftsman NASCAR robot tee"
+  },
+  {
+   "id": "poshmark:679fed1ac9af8cf4f4ecb09a",
+   "date": "2026-10-09",
+   "verdict": "PASS-SCOPE",
+   "why": "Craftsman NASCAR robot tee"
+  },
+  {
+   "id": "grailed:70322764",
+   "date": "2026-10-09",
+   "verdict": "PASS",
+   "why": "Husqvarna logo tee XL $15, modern"
+  },
+  {
+   "id": "grailed:104026687",
+   "date": "2026-10-09",
+   "verdict": "PASS",
+   "why": "Milwaukee 'Smooth From The Start' Bayside, modern"
+  },
+  {
+   "id": "grailed:108146664",
+   "date": "2026-10-09",
+   "verdict": "PASS",
+   "why": "Modern Milwaukee tee"
+  },
+  {
+   "id": "grailed:99999209",
+   "date": "2026-10-09",
+   "verdict": "PASS",
+   "why": "DeWalt cropped tee, M"
+  },
+  {
+   "id": "etsy:4577796440",
+   "date": "2026-10-09",
+   "verdict": "PASS",
+   "why": "Husqvarna 90s flannel $67, not a tee or crew"
+  },
+  {
+   "id": "etsy:4570298105",
+   "date": "2026-10-09",
+   "verdict": "PASS-SCOPE",
+   "why": "NASCAR"
+  },
+  {
+   "id": "etsy:1351920146",
+   "date": "2026-10-09",
+   "verdict": "PASS-SCOPE",
+   "why": "NASCAR"
+  },
+  {
+   "id": "etsy:4475772838",
+   "date": "2026-10-09",
+   "verdict": "PASS-SCOPE",
+   "why": "NASCAR"
+  },
+  {
+   "id": "etsy:4333790203",
+   "date": "2026-10-09",
+   "verdict": "PASS-SCOPE",
+   "why": "NASCAR"
+  },
+  {
+   "id": "mercarijp:m83191174031",
+   "date": "2026-10-09",
+   "verdict": "PASS-SCOPE",
+   "why": "Makita Suzuki/Yoshimura racing"
+  },
+  {
+   "id": "mercarijp:m96392603076",
+   "date": "2026-10-09",
+   "verdict": "PASS-SCOPE",
+   "why": "Makita Suzuki/Yoshimura racing"
+  },
+  {
+   "id": "mercarijp:m37590925253",
+   "date": "2026-10-09",
+   "verdict": "PASS",
+   "why": "Kubota M7 tractor tee, M7 is a post-2014 model"
+  },
+  {
+   "id": "mercari:m31568060273",
+   "date": "2026-10-09",
+   "verdict": "PASS",
+   "why": "Lot of 2 80s Husqvarna Husky dog golf polos, XL, 23in pit, $5.22; polos, not a target"
+  },
+  {
+   "id": "mercari:m17417713204",
+   "date": "2026-10-09",
+   "verdict": "PASS",
+   "why": "Craftsman 'Keep Your Hands Off My Craftsman Tools' XL $25; AI description says XL-6XL, no era evidence"
+  },
+  {
+   "id": "mercari:m75404299535",
+   "date": "2026-10-09",
+   "verdict": "PASS",
+   "why": "Craftsman graphic tee NWT $22, modern"
   }
  ]
 }
