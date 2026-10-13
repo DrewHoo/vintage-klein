@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-09",
+ "updated": "2026-10-13",
  "target": {
   "scope": "Vintage (pre-~2005, ideally 80s/90s) tees and crewnecks from tool/trade brands: Milwaukee Electric Tools, Klein Tools, DeWalt, Husqvarna, Kubota, Craftsman, Bosch, Makita, Hitachi, Hilti, Ryobi, Metabo, Husky, Matco, CAT, Stihl, Husqvarna, Black & Decker, Porter-Cable, Ingersoll-Rand, John Deere. OUT OF SCOPE (Drew, 2026-10-06): Snap-on, Mac Tools, and racing shirts of any brand (NASCAR/NHRA/motocross, driver or race-team graphics, incl. DeWalt Sadler/Kenseth) = PASS-SCOPE. Husqvarna (chainsaw/forestry/lawn, not motocross or sewing) and Kubota (tractor/equipment dealer promos; deep supply in Japan as クボタ) are every-run brands (Drew, 2026-10-06).",
   "size": "Men's L or XL only. 90s cuts run a size big — judge by pit-to-pit 22-24 in when stated; ask for measurements when not.",
@@ -2177,8 +2177,8 @@
   {
    "id": "depop:vintkge_wear2-husqvarna-leader-of-the-pack-bcf1",
    "date": "2026-10-06",
-   "verdict": "WATCH",
-   "why": "Right brand (chainsaw 'Leader of the Pack' wolf graphic, orange Husqvarna logo), real early-90s Jerzees USA single stitch in L, but $39 is over the $30 HOT band; an offer of about $28 to $30 would make it HOT. Also cross"
+   "verdict": "HOT",
+   "why": "Right brand (chainsaw 'Leader of the Pack' wolf graphic, orange Husqvarna logo), real early-90s Jerzees USA single stitch in L, but $39 is over the $30 HOT band; an offer of about $28 to $30 would make it HOT. Also cross | 2026-10-13: dropped to $23.69 -> HOT (single stitch L <=$30)"
   },
   {
    "id": "poshmark:Jerzees-Mens-Orange-Tshirt-6ac48f4b3fce2b1ff0137c30",
@@ -3439,6 +3439,168 @@
    "date": "2026-10-09",
    "verdict": "PASS",
    "why": "Craftsman graphic tee NWT $22, modern"
+  },
+  {
+   "id": "ebay:168295144033",
+   "date": "2026-10-13",
+   "verdict": "HOT",
+   "why": "80s Black & Decker 'Piranha' carbide saw blade promo, K-Brand Made in USA 50/50, single stitch, XL (~22in pit on ruler), near new, $16.98 OBO, seller 99.8% (10.4k)"
+  },
+  {
+   "id": "depop:aidand983-vintage-90s-heavy-weight-milwaukee-435b",
+   "date": "2026-10-13",
+   "verdict": "HOT",
+   "why": "90s Milwaukee Electric Tools 'Heavy Duty' embroidered crew, black with striped ribs, K-Products Heavy Weight USA tag, XL (fits L-XL), excellent, $26.74 incl fees"
+  },
+  {
+   "id": "ebay:117309560695",
+   "date": "2026-10-13",
+   "verdict": "WATCH",
+   "why": "B&D logo + 'Burns Power Tools, Fall River MA' dealer back print, Velva Sheen Made in USA crew, XL, $26.99 OBO; noticeable marks throughout; also cross-listed on Poshmark"
+  },
+  {
+   "id": "ebay:257658039310",
+   "date": "2026-10-13",
+   "verdict": "WATCH",
+   "why": "90s Black & Decker 'Industrial Tools' hex logo ringer tee, Signal blank, XL, measurements in photos, great condition, $34.99 OBO; over the $30 snipe band"
+  },
+  {
+   "id": "depop:amjdeusmozart-vintage-single-stitch-yellow-dewalt-8fbc",
+   "date": "2026-10-13",
+   "verdict": "WATCH",
+   "why": "Single stitch DeWalt power tools pocket tee, Delta tag, XL 23x29, $83.44; real but well over band"
+  },
+  {
+   "id": "depop:bigrubydealz-white-bosch-1990s-sacrifice-nothing",
+   "date": "2026-10-13",
+   "verdict": "WATCH",
+   "why": "Bosch 24-volt 'Sacrifice Nothing!' promo, front+back, Hanes, XL, light stain, $23.69; retired 24V platform dates it pre-2016 but over the $20 late-band snipe"
+  },
+  {
+   "id": "ebay:227515554611",
+   "date": "2026-10-13",
+   "verdict": "PASS",
+   "why": "B&D / Thunander small embroidered dealer logo crew; title XL vs specifics L, stain + small hole, $23.44"
+  },
+  {
+   "id": "ebay:295608870385",
+   "date": "2026-10-13",
+   "verdict": "PASS",
+   "why": "'AMF DeWalt Keep Saw Sharp' emblem on new black tee; print-on-demand retro"
+  },
+  {
+   "id": "ebay:237120953788",
+   "date": "2026-10-13",
+   "verdict": "PASS",
+   "why": "Bosch 'Invented for life' black FOTL tee XL $50; 2000s slogan, plain logo, overpriced"
+  },
+  {
+   "id": "ebay:366651110610",
+   "date": "2026-10-13",
+   "verdict": "PASS-SCOPE",
+   "why": "1997 John 'Weasel' Rhoades #6 Stihl dirt late model tee; racing"
+  },
+  {
+   "id": "ebay:227112852130",
+   "date": "2026-10-13",
+   "verdict": "PASS",
+   "why": "Milwaukee 'Smooth From The Start' Bayside XL $24.95; ended Aug 2"
+  },
+  {
+   "id": "depop:ramvayscollectionsd-vintage-90s-black-decker-fca0",
+   "date": "2026-10-13",
+   "verdict": "PASS",
+   "why": "B&D 'Do It With A Screamer' hammer drill promo, Screen Stars Best USA single stitch, $23.68, but tagged L at ~20.5in pit; too small"
+  },
+  {
+   "id": "depop:wagstaffwm-vintage-milwaukee-tools-shirt-xl",
+   "date": "2026-10-13",
+   "verdict": "PASS",
+   "why": "Milwaukee 'Nothing But Heavy Duty' back print tee XL $18.44; no dating evidence, old listing"
+  },
+  {
+   "id": "depop:mt_vpntage26-vintage-milwaukee-tools-graphic-logo-41c3",
+   "date": "2026-10-13",
+   "verdict": "PASS",
+   "why": "Modern Milwaukee lightning logo red tee"
+  },
+  {
+   "id": "depop:kifiyd-vintage-90s-milwaukee-tools-embroidered-1e7b",
+   "date": "2026-10-13",
+   "verdict": "PASS",
+   "why": "'UWM Milwaukee' red crew; university, not tools"
+  },
+  {
+   "id": "depop:doncollectide-vintage-milwaukee-tools-red-champion-f934",
+   "date": "2026-10-13",
+   "verdict": "PASS",
+   "why": "Milwaukee Champion RW hoodie, 31in pit; too big, hoodie"
+  },
+  {
+   "id": "depop:bur7atvintage-super-faded-out-stereo-husqvarna-11f1",
+   "date": "2026-10-13",
+   "verdict": "PASS",
+   "why": "Faded Husqvarna dealer tee on Gildan; modern"
+  },
+  {
+   "id": "depop:elsamsvntg-90s-united-supply-bosch-power-3321",
+   "date": "2026-10-13",
+   "verdict": "PASS",
+   "why": "90s United Supply Bosch long sleeve, tagged L 21.5in; long sleeve and small"
+  },
+  {
+   "id": "depop:crustyvinta2e-vintage-cropped-gray-hanes-husqvarna-81c4",
+   "date": "2026-10-13",
+   "verdict": "PASS",
+   "why": "Cropped Husqvarna Hanes tee"
+  },
+  {
+   "id": "poshmark:Vintage-Stihl-Tshirt-large-6accc1c1c6e38a6ed34d43f7",
+   "date": "2026-10-13",
+   "verdict": "PASS",
+   "why": "Stihl 'Real Work' modern Hanes tee $30"
+  },
+  {
+   "id": "poshmark:Vintage-Husqvarna-t-shirt-5e21590f16105d603f44194a",
+   "date": "2026-10-13",
+   "verdict": "PASS",
+   "why": "Single stitch Husqvarna tee tagged XL but 21in chest, $20; too small"
+  },
+  {
+   "id": "mercari:m24883714632",
+   "date": "2026-10-13",
+   "verdict": "PASS",
+   "why": "DeWalt Challenge Hanes XL $24; the Mercari copy of the $19.20 eBay card (ebay:147580324795)"
+  },
+  {
+   "id": "mercari:m51021758821",
+   "date": "2026-10-13",
+   "verdict": "PASS",
+   "why": "'2008' Milwaukee tribal back tee XXL $10.99; year is seller's claim only"
+  },
+  {
+   "id": "mercari:m67240015182",
+   "date": "2026-10-13",
+   "verdict": "PASS",
+   "why": "Modern Milwaukee lightning logo red tee"
+  },
+  {
+   "id": "mercari:m21504418711",
+   "date": "2026-10-13",
+   "verdict": "PASS",
+   "why": "Modern Milwaukee logo tee"
+  },
+  {
+   "id": "etsy:930247728",
+   "date": "2026-10-13",
+   "verdict": "PASS",
+   "why": "90s Black & Decker spellout sweatshirt, Medium"
+  },
+  {
+   "id": "mercarijp:m76746231726",
+   "date": "2026-10-13",
+   "verdict": "PASS",
+   "why": "Bosch ringer by Good Regular (modern Japanese label)"
   }
  ]
 }
