@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20",
+ "updated": "2026-10-23",
  "target": {
   "scope": "Vintage (pre-~2005, ideally 80s/90s) tees and crewnecks from tool/trade brands: Milwaukee Electric Tools, Klein Tools, DeWalt, Husqvarna, Kubota, Craftsman, Bosch, Makita, Hitachi, Hilti, Ryobi, Metabo, Husky, Matco, CAT, Stihl, Husqvarna, Black & Decker, Porter-Cable, Ingersoll-Rand, John Deere. OUT OF SCOPE (Drew, 2026-10-06): Snap-on, Mac Tools, and racing shirts of any brand (NASCAR/NHRA/motocross, driver or race-team graphics, incl. DeWalt Sadler/Kenseth) = PASS-SCOPE. Husqvarna (chainsaw/forestry/lawn, not motocross or sewing) and Kubota (tractor/equipment dealer promos; deep supply in Japan as クボタ) are every-run brands (Drew, 2026-10-06).",
   "size": "Men's L or XL only. 90s cuts run a size big — judge by pit-to-pit 22-24 in when stated; ask for measurements when not.",
@@ -35,7 +35,7 @@
   "blocked": [
    "ebay sold/completed comps (CAPTCHA + sign-in wall)"
   ],
-  "notes": "eBay/Etsy/Grailed/Depop/Mercari 403 plain WebFetch — use browser pane; Mercari and Facebook need real Chrome. Depop prices include buyer fees. Grailed is a markup market: find the piece there, buy it on eBay/Mercari. Gem (gem.app) aggregates everything incl. indie shops. Facebook Marketplace not yet swept for this hunt. 2026-10-04: eBay search pages sometimes return 'Error Page' on navigate; in-page fetch('/sch/...') and fetch('/itm/...') from an ebay.com tab work and parse fine. Etsy/Depop/Poshmark also work via same-origin fetch after loading the homepage. 2026-10-05 Makita probe: US eBay 'makita' clothing is mostly POD spam ('Made in USA/AUS S-2XL') + 2000s Team Makita Suzuki MX. Japanese supply lives on jp.mercari.com and auctions.yahoo.co.jp (both render in the in-app browser; search 'makita 企業', 'マキタ 古着', 'マキタ Tシャツ'). Japanese tags run a size small — judge only by 身幅 (body width) in cm: 56-61cm = 22-24in. Buying needs a proxy (Buyee/ZenMarket), roughly +$25-40 landed. 2026-10-08: Mercari US works via the claude-in-chrome extension (navigate + JSON-LD on item pages; strip query strings or the output guard blocks). Gem throws a Human Verification CAPTCHA after ~3 searches. Depop sellers sometimes tag tool tees 'Supreme' for exposure, so Gem/Google catch what brand searches miss. Mercari JP fuzzy-matches クボタ to バックボタン; use 'kubota クボタ' in メンズ. 2026-10-09: the in-app browser tab can hang on a long awaited fetch; fire fetches into window vars and read them back in a second call. eBay item specifics parse best from body text after 'Item specifics'; the description iframe is cross-origin."
+  "notes": "eBay/Etsy/Grailed/Depop/Mercari 403 plain WebFetch — use browser pane; Mercari and Facebook need real Chrome. Depop prices include buyer fees. Grailed is a markup market: find the piece there, buy it on eBay/Mercari. Gem (gem.app) aggregates everything incl. indie shops. Facebook Marketplace not yet swept for this hunt. 2026-10-04: eBay search pages sometimes return 'Error Page' on navigate; in-page fetch('/sch/...') and fetch('/itm/...') from an ebay.com tab work and parse fine. Etsy/Depop/Poshmark also work via same-origin fetch after loading the homepage. 2026-10-05 Makita probe: US eBay 'makita' clothing is mostly POD spam ('Made in USA/AUS S-2XL') + 2000s Team Makita Suzuki MX. Japanese supply lives on jp.mercari.com and auctions.yahoo.co.jp (both render in the in-app browser; search 'makita 企業', 'マキタ 古着', 'マキタ Tシャツ'). Japanese tags run a size small — judge only by 身幅 (body width) in cm: 56-61cm = 22-24in. Buying needs a proxy (Buyee/ZenMarket), roughly +$25-40 landed. 2026-10-08: Mercari US works via the claude-in-chrome extension (navigate + JSON-LD on item pages; strip query strings or the output guard blocks). Gem throws a Human Verification CAPTCHA after ~3 searches. Depop sellers sometimes tag tool tees 'Supreme' for exposure, so Gem/Google catch what brand searches miss. Mercari JP fuzzy-matches クボタ to バックボタン; use 'kubota クボタ' in メンズ. 2026-10-09: the in-app browser tab can hang on a long awaited fetch; fire fetches into window vars and read them back in a second call. eBay item specifics parse best from body text after 'Item specifics'; the description iframe is cross-origin. 2026-10-23: claude-in-chrome did not respond (tabs_context timeout), so Mercari US was not swept or rechecked. Depop webapi fetch is CORS-blocked from depop.com; same-origin fetch of /search/?q= HTML returns 24 product links per query, and product pages carry JSON-LD offers with InStock/SoldOut. eBay item pages always contain a hidden \"We looked everywhere\" template, so test liveness by the Buy It Now/price text, not that string."
  },
  "seen": [
   {
@@ -4087,6 +4087,162 @@
    "date": "2026-10-20",
    "verdict": "PASS",
    "why": "Milwaukee Electric Tools City Supply OS (hat)"
+  },
+  {
+   "id": "depop:wh9lers-red-vintage-milwaukee-electric-tools-fb36",
+   "date": "2026-10-23",
+   "verdict": "HOT",
+   "why": "5th copy of the K-Products Milwaukee Electric Tools Made in the U.S.A. tee, XL tag, $34.19, very good, no pit-to-pit yet"
+  },
+  {
+   "id": "depop:ashton_vintage1-vintage-red-milwaukee-electric-tools-a62b",
+   "date": "2026-10-23",
+   "verdict": "PASS",
+   "why": "Gildan Heavy Cotton tear-away, M12 Fuel back print: modern"
+  },
+  {
+   "id": "depop:mossvintate-vintage-90s-dewalt-tools-t-ea82",
+   "date": "2026-10-23",
+   "verdict": "PASS",
+   "why": "90s DeWalt HPIT logo tee L on Delta, but distressed and $32.09; two cleaner HPIT copies already carded cheaper"
+  },
+  {
+   "id": "depop:algar_422-milwaukee-brand-tools-l-red-e200",
+   "date": "2026-10-23",
+   "verdict": "PASS",
+   "why": "Modern Milwaukee Tool red logo tee, tear and stains"
+  },
+  {
+   "id": "depop:_sa8tysalt_-red-milwaukee-heavy-cotton-t-shirt-73dd",
+   "date": "2026-10-23",
+   "verdict": "PASS",
+   "why": "Modern Milwaukee Gildan heavy cotton tee"
+  },
+  {
+   "id": "depop:nickssweatshop-vintage-y2k-2000s-dewalt-tools",
+   "date": "2026-10-23",
+   "verdict": "PASS",
+   "why": "Y2K DeWalt Anvil promo tee L, undated 2000s"
+  },
+  {
+   "id": "depop:tayleyg_treasures-dewalt-yellow-work-tee-65f9",
+   "date": "2026-10-23",
+   "verdict": "PASS",
+   "why": "Modern DeWalt Made in USA with Global Materials tee, 2XL"
+  },
+  {
+   "id": "depop:thebrpwse-yellow-dewalt-cotton-t-shirt-size-80b7",
+   "date": "2026-10-23",
+   "verdict": "PASS",
+   "why": "Modern DeWalt tee, M"
+  },
+  {
+   "id": "depop:reggie_6l99-blue-dewalt-t-shirt-workwear-construction-ccda",
+   "date": "2026-10-23",
+   "verdict": "PASS",
+   "why": "Modern DeWalt tee"
+  },
+  {
+   "id": "depop:rqstok_64-vintage-black-stihl-t-shirt-with-9345",
+   "date": "2026-10-23",
+   "verdict": "PASS",
+   "why": "Undated Stihl logo tee, no era evidence"
+  },
+  {
+   "id": "depop:spence_v9g-y2k-stihl-chainsaw-graphic-tee-81b0",
+   "date": "2026-10-23",
+   "verdict": "PASS",
+   "why": "Y2K Stihl Feel the Power tee, undated, $32"
+  },
+  {
+   "id": "depop:pookiesnowdle-blue-stihl-t-shirt-with-orange-fd03",
+   "date": "2026-10-23",
+   "verdict": "PASS",
+   "why": "Modern Stihl tee 2XL"
+  },
+  {
+   "id": "depop:midwest_lone0-y2k-early-2000s-black-and-b9b1",
+   "date": "2026-10-23",
+   "verdict": "PASS",
+   "why": "Y2K Matco tribal tee, M-ish, undated"
+  },
+  {
+   "id": "depop:kristacohick-kubota-black-cotton-t-shirt-size-9678",
+   "date": "2026-10-23",
+   "verdict": "PASS",
+   "why": "Modern Kubota tee, S"
+  },
+  {
+   "id": "depop:apar4_865-orange-kubota-hoodie-with-white-e3ef",
+   "date": "2026-10-23",
+   "verdict": "PASS",
+   "why": "Modern Kubota hoodie"
+  },
+  {
+   "id": "depop:nataliegracexou-kubota-brown-hoodie-with-embroidered-eee7",
+   "date": "2026-10-23",
+   "verdict": "PASS",
+   "why": "Modern Kubota hoodie, M"
+  },
+  {
+   "id": "depop:lgllywiest-husqvarna-gray-and-light-gray-7d57",
+   "date": "2026-10-23",
+   "verdict": "PASS",
+   "why": "Husqvarna hoodie XS"
+  },
+  {
+   "id": "depop:77fl3ps-vintage-y2k-early-2000s-dewalt-turning-0e29",
+   "date": "2026-10-23",
+   "verdict": "PASS-SCOPE",
+   "why": "DeWalt Turning Point Racing windbreaker"
+  },
+  {
+   "id": "ebay:407309852364",
+   "date": "2026-10-23",
+   "verdict": "PASS",
+   "why": "Plain DeWalt logo tee on Anvil, XL, $20 OBO, no era evidence"
+  },
+  {
+   "id": "ebay:206646173591",
+   "date": "2026-10-23",
+   "verdict": "PASS",
+   "why": "Makita 100 Years 1915-2015 small chest logo tee, dated late band but logo-led and $40, size unstated"
+  },
+  {
+   "id": "ebay:206641534997",
+   "date": "2026-10-23",
+   "verdict": "PASS",
+   "why": "Modern DeWalt Guaranteed Tough back-print tee"
+  },
+  {
+   "id": "ebay:326906621052",
+   "date": "2026-10-23",
+   "verdict": "PASS",
+   "why": "Modern DeWalt Guaranteed Tough tee L"
+  },
+  {
+   "id": "ebay:168279292561",
+   "date": "2026-10-23",
+   "verdict": "PASS",
+   "why": "Bosch Power Tools embroidered denim button shirt"
+  },
+  {
+   "id": "ebay:287317726175",
+   "date": "2026-10-23",
+   "verdict": "PASS",
+   "why": "Milwaukee Smooth From The Start tee, Small"
+  },
+  {
+   "id": "grailed:109657783",
+   "date": "2026-10-23",
+   "verdict": "PASS",
+   "why": "Y2K Milwaukee Electric Tool promo tee on FOTL, XL, $79, undated and over band"
+  },
+  {
+   "id": "grailed:109276296",
+   "date": "2026-10-23",
+   "verdict": "WATCH",
+   "why": "DeWalt Challenge Hanes tee XL $38; 4th copy, pricier than the three already carded, not carded"
   }
  ]
 }
