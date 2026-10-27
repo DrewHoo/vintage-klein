@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23",
+ "updated": "2026-10-27",
  "target": {
   "scope": "Vintage (pre-~2005, ideally 80s/90s) tees and crewnecks from tool/trade brands: Milwaukee Electric Tools, Klein Tools, DeWalt, Husqvarna, Kubota, Craftsman, Bosch, Makita, Hitachi, Hilti, Ryobi, Metabo, Husky, Matco, CAT, Stihl, Husqvarna, Black & Decker, Porter-Cable, Ingersoll-Rand, John Deere. OUT OF SCOPE (Drew, 2026-10-06): Snap-on, Mac Tools, and racing shirts of any brand (NASCAR/NHRA/motocross, driver or race-team graphics, incl. DeWalt Sadler/Kenseth) = PASS-SCOPE. Husqvarna (chainsaw/forestry/lawn, not motocross or sewing) and Kubota (tractor/equipment dealer promos; deep supply in Japan as クボタ) are every-run brands (Drew, 2026-10-06).",
   "size": "Men's L or XL only. 90s cuts run a size big — judge by pit-to-pit 22-24 in when stated; ask for measurements when not.",
@@ -35,7 +35,7 @@
   "blocked": [
    "ebay sold/completed comps (CAPTCHA + sign-in wall)"
   ],
-  "notes": "eBay/Etsy/Grailed/Depop/Mercari 403 plain WebFetch — use browser pane; Mercari and Facebook need real Chrome. Depop prices include buyer fees. Grailed is a markup market: find the piece there, buy it on eBay/Mercari. Gem (gem.app) aggregates everything incl. indie shops. Facebook Marketplace not yet swept for this hunt. 2026-10-04: eBay search pages sometimes return 'Error Page' on navigate; in-page fetch('/sch/...') and fetch('/itm/...') from an ebay.com tab work and parse fine. Etsy/Depop/Poshmark also work via same-origin fetch after loading the homepage. 2026-10-05 Makita probe: US eBay 'makita' clothing is mostly POD spam ('Made in USA/AUS S-2XL') + 2000s Team Makita Suzuki MX. Japanese supply lives on jp.mercari.com and auctions.yahoo.co.jp (both render in the in-app browser; search 'makita 企業', 'マキタ 古着', 'マキタ Tシャツ'). Japanese tags run a size small — judge only by 身幅 (body width) in cm: 56-61cm = 22-24in. Buying needs a proxy (Buyee/ZenMarket), roughly +$25-40 landed. 2026-10-08: Mercari US works via the claude-in-chrome extension (navigate + JSON-LD on item pages; strip query strings or the output guard blocks). Gem throws a Human Verification CAPTCHA after ~3 searches. Depop sellers sometimes tag tool tees 'Supreme' for exposure, so Gem/Google catch what brand searches miss. Mercari JP fuzzy-matches クボタ to バックボタン; use 'kubota クボタ' in メンズ. 2026-10-09: the in-app browser tab can hang on a long awaited fetch; fire fetches into window vars and read them back in a second call. eBay item specifics parse best from body text after 'Item specifics'; the description iframe is cross-origin. 2026-10-23: claude-in-chrome did not respond (tabs_context timeout), so Mercari US was not swept or rechecked. Depop webapi fetch is CORS-blocked from depop.com; same-origin fetch of /search/?q= HTML returns 24 product links per query, and product pages carry JSON-LD offers with InStock/SoldOut. eBay item pages always contain a hidden \"We looked everywhere\" template, so test liveness by the Buy It Now/price text, not that string."
+  "notes": "eBay/Etsy/Grailed/Depop/Mercari 403 plain WebFetch — use browser pane; Mercari and Facebook need real Chrome. Depop prices include buyer fees. Grailed is a markup market: find the piece there, buy it on eBay/Mercari. Gem (gem.app) aggregates everything incl. indie shops. Facebook Marketplace not yet swept for this hunt. 2026-10-04: eBay search pages sometimes return 'Error Page' on navigate; in-page fetch('/sch/...') and fetch('/itm/...') from an ebay.com tab work and parse fine. Etsy/Depop/Poshmark also work via same-origin fetch after loading the homepage. 2026-10-05 Makita probe: US eBay 'makita' clothing is mostly POD spam ('Made in USA/AUS S-2XL') + 2000s Team Makita Suzuki MX. Japanese supply lives on jp.mercari.com and auctions.yahoo.co.jp (both render in the in-app browser; search 'makita 企業', 'マキタ 古着', 'マキタ Tシャツ'). Japanese tags run a size small — judge only by 身幅 (body width) in cm: 56-61cm = 22-24in. Buying needs a proxy (Buyee/ZenMarket), roughly +$25-40 landed. 2026-10-08: Mercari US works via the claude-in-chrome extension (navigate + JSON-LD on item pages; strip query strings or the output guard blocks). Gem throws a Human Verification CAPTCHA after ~3 searches. Depop sellers sometimes tag tool tees 'Supreme' for exposure, so Gem/Google catch what brand searches miss. Mercari JP fuzzy-matches クボタ to バックボタン; use 'kubota クボタ' in メンズ. 2026-10-09: the in-app browser tab can hang on a long awaited fetch; fire fetches into window vars and read them back in a second call. eBay item specifics parse best from body text after 'Item specifics'; the description iframe is cross-origin. 2026-10-23: claude-in-chrome did not respond (tabs_context timeout), so Mercari US was not swept or rechecked. Depop webapi fetch is CORS-blocked from depop.com; same-origin fetch of /search/?q= HTML returns 24 product links per query, and product pages carry JSON-LD offers with InStock/SoldOut. eBay item pages always contain a hidden \"We looked everywhere\" template, so test liveness by the Buy It Now/price text, not that string. 2026-10-27: claude-in-chrome not connected again, Mercari US unswept. Depop liveness: the regex for sold is unreliable; test schema.org/InStock vs SoldOut in the product HTML. Grailed renders via hidden same-origin iframes per query. Gem skipped this run."
  },
  "seen": [
   {
@@ -492,7 +492,7 @@
    "id": "etsy:4587136453",
    "date": "2026-10-03",
    "verdict": "WATCH",
-   "why": "90s Stihl 'Monster Saw' promo tee, L, $40.73"
+   "why": "90s Stihl 'Monster Saw' promo tee, L, $40.73 | SOLD by 2026-10-27"
   },
   {
    "id": "ebay:206530700000-stihl-strong-survive",
@@ -3786,7 +3786,7 @@
    "id": "depop:fitsanufindz-klein-tools-michael-mancuso-airplane-b5bf",
    "date": "2026-10-20",
    "verdict": "WATCH",
-   "why": "Klein Tools Aviation / Mike Mancuso airshow tee, Hanes Beefy-T (bull tag, 2000s), L ~21in, $13.19; undatable Klein -> WATCH"
+   "why": "Klein Tools Aviation / Mike Mancuso airshow tee, Hanes Beefy-T (bull tag, 2000s), L ~21in, $13.19; undatable Klein -> WATCH | SOLD by 2026-10-27"
   },
   {
    "id": "poshmark:Vintage-DeWalt-Tools-Delta-Pro-Weight-Graphic-TShirt-XL-White-Leaner-Meaner-Saw-6ad4f0e6875d656466853046",
@@ -3798,7 +3798,7 @@
    "id": "depop:emma2mcq-vintage-grey-stihl-crewneck-size-2fa7",
    "date": "2026-10-20",
    "verdict": "WATCH",
-   "why": "Stihl stacked-logo gray crew, Lee Heavyweight El Salvador of USA materials (late 90s/early 00s), XL, $27.69"
+   "why": "Stihl stacked-logo gray crew, Lee Heavyweight El Salvador of USA materials (late 90s/early 00s), XL, $27.69 | SOLD by 2026-10-27"
   },
   {
    "id": "depop:westfarg9_vintage-brand-tag-gildan-heavy-d48a",
@@ -4243,6 +4243,372 @@
    "date": "2026-10-23",
    "verdict": "WATCH",
    "why": "DeWalt Challenge Hanes tee XL $38; 4th copy, pricier than the three already carded, not carded"
+  },
+  {
+   "id": "ebay:287681693448",
+   "date": "2026-10-27",
+   "verdict": "HOT",
+   "why": "DeWalt Challenge front + Cordless Not Gutless back, Hanes Beefy-T USA, L (42-44), $19.95 OBO; both named grails, pit-to-pit unconfirmed; emailed"
+  },
+  {
+   "id": "ebay:407318442045",
+   "date": "2026-10-27",
+   "verdict": "WATCH",
+   "why": "90s Hitachi Mean Green Building Machine crew, FOTL USA, 2XL tag, stains, $22.49 OBO; size pending pit-to-pit; carded"
+  },
+  {
+   "id": "ebay:117483959414",
+   "date": "2026-10-27",
+   "verdict": "PASS",
+   "why": "Husqvarna embroidered navy crew XL, Gildan Ultra Blend blank, undatable"
+  },
+  {
+   "id": "ebay:840056402938",
+   "date": "2026-10-27",
+   "verdict": "PASS",
+   "why": "Stihl Stedman ringer L, stained Fair, $59.99, double the band for a stained tee"
+  },
+  {
+   "id": "ebay:237145628794",
+   "date": "2026-10-27",
+   "verdict": "PASS",
+   "why": "FOTL Lofteez \"bosch\" tee, Honduras 2000s, not tool brand"
+  },
+  {
+   "id": "ebay:860087323833",
+   "date": "2026-10-27",
+   "verdict": "PASS",
+   "why": "CAT D9R single stitch tee 2XL, $65, wrong size and over band"
+  },
+  {
+   "id": "ebay:389574670729",
+   "date": "2026-10-27",
+   "verdict": "PASS",
+   "why": "Bosch auto-parts crew, auto division not power tools"
+  },
+  {
+   "id": "ebay:820270779247",
+   "date": "2026-10-27",
+   "verdict": "PASS",
+   "why": "90s DeWalt wool/leather varsity jacket L $78, jacket not tee/crew"
+  },
+  {
+   "id": "ebay:127737239254",
+   "date": "2026-10-27",
+   "verdict": "PASS",
+   "why": "90s DeWalt fleece jacket, out of category"
+  },
+  {
+   "id": "ebay:227566318701",
+   "date": "2026-10-27",
+   "verdict": "PASS",
+   "why": "DeWalt employee polo, polo"
+  },
+  {
+   "id": "ebay:267823511416",
+   "date": "2026-10-27",
+   "verdict": "PASS",
+   "why": "Craftsman single stitch polo, polo"
+  },
+  {
+   "id": "ebay:278436461883",
+   "date": "2026-10-27",
+   "verdict": "PASS",
+   "why": "Milwaukee Tool Swingster polo, polo"
+  },
+  {
+   "id": "ebay:198740761681",
+   "date": "2026-10-27",
+   "verdict": "PASS",
+   "why": "Milwaukee Workskin, modern"
+  },
+  {
+   "id": "ebay:147612721882",
+   "date": "2026-10-27",
+   "verdict": "PASS",
+   "why": "DeWalt skull POD tee"
+  },
+  {
+   "id": "ebay:900043007899",
+   "date": "2026-10-27",
+   "verdict": "PASS",
+   "why": "DeWalt Guaranteed Tough hoodie, modern workwear"
+  },
+  {
+   "id": "ebay:407316638142",
+   "date": "2026-10-27",
+   "verdict": "PASS",
+   "why": "DeWalt Guaranteed Tough Baltimore tee, modern"
+  },
+  {
+   "id": "ebay:298490312703",
+   "date": "2026-10-27",
+   "verdict": "PASS",
+   "why": "Klein skeleton lineman tee, modern"
+  },
+  {
+   "id": "ebay:168782181766",
+   "date": "2026-10-27",
+   "verdict": "PASS",
+   "why": "Klein Est. 1857 POD tee S-5XL"
+  },
+  {
+   "id": "ebay:366761271917",
+   "date": "2026-10-27",
+   "verdict": "PASS",
+   "why": "Klein black hoodie, modern"
+  },
+  {
+   "id": "ebay:325920429371",
+   "date": "2026-10-27",
+   "verdict": "PASS",
+   "why": "Klein women L shirt, modern"
+  },
+  {
+   "id": "ebay:317484592390",
+   "date": "2026-10-27",
+   "verdict": "PASS",
+   "why": "Farwest/Klein lineman tee, Small"
+  },
+  {
+   "id": "ebay:333297854613",
+   "date": "2026-10-27",
+   "verdict": "PASS",
+   "why": "Klein lineman long sleeve, modern catalog"
+  },
+  {
+   "id": "ebay:147653483891",
+   "date": "2026-10-27",
+   "verdict": "PASS",
+   "why": "Klein hat"
+  },
+  {
+   "id": "ebay:147633279787",
+   "date": "2026-10-27",
+   "verdict": "PASS",
+   "why": "Klein 130th trucker hat, hat"
+  },
+  {
+   "id": "ebay:377424024469",
+   "date": "2026-10-27",
+   "verdict": "PASS",
+   "why": "Klein 125th 1982 Graybar trucker hat, hat (notable: dated 82)"
+  },
+  {
+   "id": "ebay:127898551881",
+   "date": "2026-10-27",
+   "verdict": "PASS",
+   "why": "Klein K-Products rope trucker NOS $50, hat"
+  },
+  {
+   "id": "ebay:398416573792",
+   "date": "2026-10-27",
+   "verdict": "PASS",
+   "why": "1980s Klein mesh trucker $17.09, hat"
+  },
+  {
+   "id": "ebay:287668731545",
+   "date": "2026-10-27",
+   "verdict": "PASS",
+   "why": "Klein hat"
+  },
+  {
+   "id": "ebay:840029437454",
+   "date": "2026-10-27",
+   "verdict": "PASS",
+   "why": "B&D hat"
+  },
+  {
+   "id": "ebay:137774099591",
+   "date": "2026-10-27",
+   "verdict": "PASS",
+   "why": "80s Milwaukee Power Tools trucker hat $20, hat"
+  },
+  {
+   "id": "ebay:267824478297",
+   "date": "2026-10-27",
+   "verdict": "PASS",
+   "why": "90s K-Products Milwaukee windbreaker, jacket (not clearly tool brand)"
+  },
+  {
+   "id": "ebay:327405111160",
+   "date": "2026-10-27",
+   "verdict": "PASS",
+   "why": "St Marys Hospital/Milwaukee Electric Co 1990 tee, not tool brand"
+  },
+  {
+   "id": "ebay:168781784021",
+   "date": "2026-10-27",
+   "verdict": "PASS",
+   "why": "Milwaukee Tool hi-vis Jerzees, modern"
+  },
+  {
+   "id": "ebay:313147326830",
+   "date": "2026-10-27",
+   "verdict": "PASS",
+   "why": "Husqvarna Xplorer ARGANG, modern"
+  },
+  {
+   "id": "ebay:265857385480",
+   "date": "2026-10-27",
+   "verdict": "PASS",
+   "why": "Husqvarna Jonathan Corey pullover, modern"
+  },
+  {
+   "id": "ebay:317222905969",
+   "date": "2026-10-27",
+   "verdict": "PASS",
+   "why": "Husqvarna Wright Bros long sleeve, Small"
+  },
+  {
+   "id": "ebay:317174675576",
+   "date": "2026-10-27",
+   "verdict": "PASS",
+   "why": "Husqvarna Wright Bros long sleeve, Small"
+  },
+  {
+   "id": "ebay:920048989699",
+   "date": "2026-10-27",
+   "verdict": "PASS",
+   "why": "Pimp My Tractor Kubota Gildan Y2K, M"
+  },
+  {
+   "id": "ebay:227579350391",
+   "date": "2026-10-27",
+   "verdict": "PASS",
+   "why": "Kubota 50th polo"
+  },
+  {
+   "id": "ebay:920049499119",
+   "date": "2026-10-27",
+   "verdict": "PASS-SCOPE",
+   "why": "Makita Mexico soccer"
+  },
+  {
+   "id": "ebay:940003554863",
+   "date": "2026-10-27",
+   "verdict": "PASS-SCOPE",
+   "why": "Team Suzuki Makita racing"
+  },
+  {
+   "id": "ebay:335829998233",
+   "date": "2026-10-27",
+   "verdict": "PASS-SCOPE",
+   "why": "Suzuki Makita Carmichael racing"
+  },
+  {
+   "id": "ebay:357074823769",
+   "date": "2026-10-27",
+   "verdict": "PASS",
+   "why": "Makoa Makita parody tee"
+  },
+  {
+   "id": "ebay:366725873219",
+   "date": "2026-10-27",
+   "verdict": "PASS",
+   "why": "Umbro Hilti soccer shirt, long sleeve jersey"
+  },
+  {
+   "id": "ebay:267456999906",
+   "date": "2026-10-27",
+   "verdict": "PASS",
+   "why": "Carhartt Hilti hoodie, modern"
+  },
+  {
+   "id": "ebay:820206742527",
+   "date": "2026-10-27",
+   "verdict": "PASS",
+   "why": "Bosch Euro Rock Fest, not tool brand"
+  },
+  {
+   "id": "ebay:307070273998",
+   "date": "2026-10-27",
+   "verdict": "PASS-SCOPE",
+   "why": "Bosch Platin racing"
+  },
+  {
+   "id": "depop:neptroundclothingco-vintage-90s-stihl-built-in-2227",
+   "date": "2026-10-27",
+   "verdict": "PASS-TASTE",
+   "why": "Stihl Built In America eagle flag tee"
+  },
+  {
+   "id": "depop:okpicps-red-milwaukee-tools-cotton-t-shirt-bb7f",
+   "date": "2026-10-27",
+   "verdict": "PASS",
+   "why": "Milwaukee Tools red logo tee, modern"
+  },
+  {
+   "id": "depop:sometying_bit_me-milwaukee-red-short-sleeve-t-1aef",
+   "date": "2026-10-27",
+   "verdict": "PASS",
+   "why": "Milwaukee red tee M, modern"
+  },
+  {
+   "id": "depop:xte9s-milwaukee-black-t-shirt-with-white-b85a",
+   "date": "2026-10-27",
+   "verdict": "PASS",
+   "why": "Milwaukee black tee 3XL"
+  },
+  {
+   "id": "depop:lovingandwilling-vintage-dewalt-tee-size-large",
+   "date": "2026-10-27",
+   "verdict": "PASS",
+   "why": "DeWalt tee, size M per listing"
+  },
+  {
+   "id": "poshmark:6ab9511c09c3e33b9590a401",
+   "date": "2026-10-27",
+   "verdict": "PASS",
+   "why": "80s Fire Power pipe wrench single stitch tee, 20.5in pit"
+  },
+  {
+   "id": "grailed:102838396",
+   "date": "2026-10-27",
+   "verdict": "PASS",
+   "why": "Milwaukee Electric Colonial Tools hat"
+  },
+  {
+   "id": "grailed:99429555",
+   "date": "2026-10-27",
+   "verdict": "PASS",
+   "why": "DeWalt Gildan double-sided tee, modern"
+  },
+  {
+   "id": "grailed:100922241",
+   "date": "2026-10-27",
+   "verdict": "PASS",
+   "why": "Metabo HPT Hitachi promo tee, 2018+"
+  },
+  {
+   "id": "grailed:110065396",
+   "date": "2026-10-27",
+   "verdict": "PASS-SCOPE",
+   "why": "Husqvarna Terrang motocross tee"
+  },
+  {
+   "id": "mercarijp:m14133815453",
+   "date": "2026-10-27",
+   "verdict": "PASS",
+   "why": "00s power tool slogan tee, undated"
+  },
+  {
+   "id": "mercarijp:2JSrZ6Xq5tu7X4cLZcryHB",
+   "date": "2026-10-27",
+   "verdict": "PASS",
+   "why": "00s DeWalt logo tee, undated"
+  },
+  {
+   "id": "mercarijp:m31542707049",
+   "date": "2026-10-27",
+   "verdict": "PASS-SCOPE",
+   "why": "90s Snap-on drag race sweat"
+  },
+  {
+   "id": "yahoojp:w1200453150",
+   "date": "2026-10-27",
+   "verdict": "PASS-SCOPE",
+   "why": "00s Makita Suzuki racing tee"
   }
  ]
 }
