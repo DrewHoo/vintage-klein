@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27",
+ "updated": "2026-10-30",
  "target": {
   "scope": "Vintage (pre-~2005, ideally 80s/90s) tees and crewnecks from tool/trade brands: Milwaukee Electric Tools, Klein Tools, DeWalt, Husqvarna, Kubota, Craftsman, Bosch, Makita, Hitachi, Hilti, Ryobi, Metabo, Husky, Matco, CAT, Stihl, Husqvarna, Black & Decker, Porter-Cable, Ingersoll-Rand, John Deere. OUT OF SCOPE (Drew, 2026-10-06): Snap-on, Mac Tools, and racing shirts of any brand (NASCAR/NHRA/motocross, driver or race-team graphics, incl. DeWalt Sadler/Kenseth) = PASS-SCOPE. Husqvarna (chainsaw/forestry/lawn, not motocross or sewing) and Kubota (tractor/equipment dealer promos; deep supply in Japan as クボタ) are every-run brands (Drew, 2026-10-06).",
   "size": "Men's L or XL only. 90s cuts run a size big — judge by pit-to-pit 22-24 in when stated; ask for measurements when not.",
@@ -1242,7 +1242,7 @@
    "id": "ebay:820189705142",
    "date": "2026-10-06",
    "verdict": "HOT",
-   "why": "1995 Black & Decker Snake Light tour tee, XL, Hanes Beefy USA single stitch, NOS, $19.88 OBO (small chest print)"
+   "why": "1995 Black & Decker Snake Light tour tee, XL, Hanes Beefy USA single stitch, NOS, $19.88 OBO (small chest print) | 2026-10-30: ended, relisted as 820295483014"
   },
   {
    "id": "ebay:267676268619",
@@ -2118,7 +2118,7 @@
    "id": "ebay:117361418769",
    "date": "2026-10-06",
    "verdict": "WATCH",
-   "why": "Husqvarna embroidered crown-logo navy crewneck, XL, USA, faded, $24.99 OBO - plain logo, no tag date"
+   "why": "Husqvarna embroidered crown-logo navy crewneck, XL, USA, faded, $24.99 OBO - plain logo, no tag date | 2026-10-30: ended by seller Oct 23, card pulled"
   },
   {
    "id": "ebay:326490960920",
@@ -4609,6 +4609,126 @@
    "date": "2026-10-27",
    "verdict": "PASS-SCOPE",
    "why": "00s Makita Suzuki racing tee"
+  },
+  {
+   "id": "ebay:820295483014",
+   "date": "2026-10-30",
+   "verdict": "WATCH",
+   "why": "Relist of 820189705142 (1995 B&D Snake Light tour tee, XL, Hanes Beefy USA single stitch, NOS, $19.88 OBO), same seller missy_1394; card link moved"
+  },
+  {
+   "id": "ebay:920081142759",
+   "date": "2026-10-30",
+   "verdict": "PASS",
+   "why": "Bosch 24 Volt Series tee, Hanes Haiti, 2000s, multiple yellow stains, $30 OBO"
+  },
+  {
+   "id": "ebay:820287106543",
+   "date": "2026-10-30",
+   "verdict": "PASS",
+   "why": "Makita M-Force tee, Hanes Comfort-T Honduras, 2000s, undated, $17 OBO"
+  },
+  {
+   "id": "ebay:227567756833",
+   "date": "2026-10-30",
+   "verdict": "PASS",
+   "why": "90s Milwaukee Tool Lee heather tee, size M"
+  },
+  {
+   "id": "ebay:287649310891",
+   "date": "2026-10-30",
+   "verdict": "PASS",
+   "why": "Milwaukee Gildan heavy duty tee, Y2K-era, undated"
+  },
+  {
+   "id": "ebay:317941888118",
+   "date": "2026-10-30",
+   "verdict": "PASS",
+   "why": "2x Milwaukee Nothing But Heavy Duty tees XL, undated late-era"
+  },
+  {
+   "id": "ebay:336373309894",
+   "date": "2026-10-30",
+   "verdict": "PASS",
+   "why": "Bosch Auto Metrics fuel-injection promo tee, automotive division not power tools"
+  },
+  {
+   "id": "ebay:147550173790",
+   "date": "2026-10-30",
+   "verdict": "PASS-SCOPE",
+   "why": "Daredevil motocross tee with Bosch sponsor"
+  },
+  {
+   "id": "depop:sourcererreviva5-vintage-1980s-faded-black-ba38",
+   "date": "2026-10-30",
+   "verdict": "WATCH",
+   "why": "80s Black & Decker Cut-Saw \"A Cut Above\" single stitch tee, L, faded black, ~21-22in pit, $34.18 incl fees (over $30 snipe band)"
+  },
+  {
+   "id": "depop:sagceshirts-vintage-black-decker-shirt-7502",
+   "date": "2026-10-30",
+   "verdict": "PASS",
+   "why": "B&D / Vernon & Sons softball team sponsor tee, H.L. Miller Gold USA, L but ~21in pit, team shirt not a tool promo, $21.20"
+  },
+  {
+   "id": "depop:rm_goodc-vintage-1997-black-decker-2575",
+   "date": "2026-10-30",
+   "verdict": "PASS",
+   "why": "1997 Black & Decker Team Walk charity tee, red FOTL, L, $13.18; corporate walk text graphic, not a tool piece"
+  },
+  {
+   "id": "depop:lmv2read_-vintage-stihl-motorsagen-graphic-t-shirt-1841",
+   "date": "2026-10-30",
+   "verdict": "PASS",
+   "why": "Stihl Motorsagen black tee, 2000s+ blank, undated, $5.84"
+  },
+  {
+   "id": "depop:laurenashley1y-black-stihl-cotton-t-shirt-outdoor-684f",
+   "date": "2026-10-30",
+   "verdict": "PASS",
+   "why": "Black Stihl tee L, seller unsure it is vintage, modern look, $25"
+  },
+  {
+   "id": "depop:wegmavscloset-milwaukee-tools-smooth-from-the-9e41",
+   "date": "2026-10-30",
+   "verdict": "PASS",
+   "why": "Milwaukee \"Smooth From The Start\" Bayside tee, size M"
+  },
+  {
+   "id": "depop:rvgs222richez-red-milwaukee-tool-t-shirt-with-c43d",
+   "date": "2026-10-30",
+   "verdict": "PASS",
+   "why": "Modern red Milwaukee Tool logo tee"
+  },
+  {
+   "id": "depop:garlintz-milwaukee-tool-red-logo-workwear-68ed",
+   "date": "2026-10-30",
+   "verdict": "PASS",
+   "why": "Modern red Milwaukee Tool logo tee, no tag"
+  },
+  {
+   "id": "poshmark:6ae1e30cdc94354e47117aee",
+   "date": "2026-10-30",
+   "verdict": "PASS",
+   "why": "Red Milwaukee Tool lightning-bolt logo tee L, modern logo"
+  },
+  {
+   "id": "poshmark:6aca45ef95154f5c08bfb22d",
+   "date": "2026-10-30",
+   "verdict": "PASS",
+   "why": "Modern black Craftsman logo tee L"
+  },
+  {
+   "id": "poshmark:6ae3ea6180cb085990c78e98",
+   "date": "2026-10-30",
+   "verdict": "PASS-TASTE",
+   "why": "Craftsman PakTites compressed tee XL, American flag made of sockets, 2000s, $35"
+  },
+  {
+   "id": "mercarijp:m92258133603",
+   "date": "2026-10-30",
+   "verdict": "PASS-SCOPE",
+   "why": "80s TEAM Husqvarna tee, motocross team, S equivalent"
   }
  ]
 }
