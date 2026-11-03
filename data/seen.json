@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30",
+ "updated": "2026-11-03",
  "target": {
   "scope": "Vintage (pre-~2005, ideally 80s/90s) tees and crewnecks from tool/trade brands: Milwaukee Electric Tools, Klein Tools, DeWalt, Husqvarna, Kubota, Craftsman, Bosch, Makita, Hitachi, Hilti, Ryobi, Metabo, Husky, Matco, CAT, Stihl, Husqvarna, Black & Decker, Porter-Cable, Ingersoll-Rand, John Deere. OUT OF SCOPE (Drew, 2026-10-06): Snap-on, Mac Tools, and racing shirts of any brand (NASCAR/NHRA/motocross, driver or race-team graphics, incl. DeWalt Sadler/Kenseth) = PASS-SCOPE. Husqvarna (chainsaw/forestry/lawn, not motocross or sewing) and Kubota (tractor/equipment dealer promos; deep supply in Japan as クボタ) are every-run brands (Drew, 2026-10-06).",
   "size": "Men's L or XL only. 90s cuts run a size big — judge by pit-to-pit 22-24 in when stated; ask for measurements when not.",
@@ -4729,6 +4729,162 @@
    "date": "2026-10-30",
    "verdict": "PASS-SCOPE",
    "why": "80s TEAM Husqvarna tee, motocross team, S equivalent"
+  },
+  {
+   "id": "ebay:128168766198",
+   "date": "2026-11-03",
+   "verdict": "HOT",
+   "why": "Milwaukee 'Run With The Best' Electric Power Tools tee, Perry Mill Supply dealer back, black XL ~23in, US origin, sleeves look single stitch, tag not shown, $50 OBO"
+  },
+  {
+   "id": "poshmark:6ae77e994adcb3408c1840f9",
+   "date": "2026-11-03",
+   "verdict": "PASS",
+   "why": "Cross-listing of ebay:128168766198 Milwaukee Run With The Best, same $50"
+  },
+  {
+   "id": "grailed:110896800",
+   "date": "2026-11-03",
+   "verdict": "PASS",
+   "why": "Cross-listing of ebay:128168766198 Milwaukee Run With The Best"
+  },
+  {
+   "id": "ebay:377617765806",
+   "date": "2026-11-03",
+   "verdict": "HOT",
+   "why": "Craftsman 'There Are Guarantees In Life' crew, black, FOTL Supercotton, L ~24in, $28.59, one stain"
+  },
+  {
+   "id": "ebay:960140223691",
+   "date": "2026-11-03",
+   "verdict": "HOT",
+   "why": "Craftsman 'Keep Your Hands Off My Craftsman Tools' Hanes Beefy-T USA, XL ~23.5in, graded excellent, title says single stitch, $29.99"
+  },
+  {
+   "id": "poshmark:6ae70c893dfc00671990a48f",
+   "date": "2026-11-03",
+   "verdict": "PASS",
+   "why": "Cross-listing of ebay:960140223691 Craftsman Keep Your Hands Off at $32"
+  },
+  {
+   "id": "ebay:840075425457",
+   "date": "2026-11-03",
+   "verdict": "WATCH",
+   "why": "Relist of ebay:189019773845 DeWalt Challenge Hanes single stitch XL $24.88 OBO (old listing ended Oct 30); noted on the Depop Challenge card"
+  },
+  {
+   "id": "grailed:110810263",
+   "date": "2026-11-03",
+   "verdict": "PASS",
+   "why": "Cross-listing of ebay:840075425457 DeWalt Challenge"
+  },
+  {
+   "id": "ebay:820300134510",
+   "date": "2026-11-03",
+   "verdict": "PASS",
+   "why": "DeWalt HPIT yellow Delta L, small hole, $34.87; cheaper HPIT copies already carded"
+  },
+  {
+   "id": "grailed:110747457",
+   "date": "2026-11-03",
+   "verdict": "PASS",
+   "why": "Cross-listing of ebay:820300134510"
+  },
+  {
+   "id": "ebay:117495173865",
+   "date": "2026-11-03",
+   "verdict": "PASS",
+   "why": "Anvil DeWalt Guaranteed Tough, Honduras, 2000s+ undated, $34.99"
+  },
+  {
+   "id": "ebay:196653069568",
+   "date": "2026-11-03",
+   "verdict": "PASS",
+   "why": "Delta DeWalt '7 US Manufacturing Facilities' tee XL, 2010s, $29.99"
+  },
+  {
+   "id": "ebay:237158518381",
+   "date": "2026-11-03",
+   "verdict": "PASS",
+   "why": "Bosch 'Invented for life' STAFDA Baltimore 2005 FOTL Lofteez XL, $50, far over late band"
+  },
+  {
+   "id": "ebay:295608855579",
+   "date": "2026-11-03",
+   "verdict": "PASS",
+   "why": "AMF DeWalt emblem tee, Bella+Canvas NWT reprint"
+  },
+  {
+   "id": "ebay:800809706226",
+   "date": "2026-11-03",
+   "verdict": "WATCH",
+   "why": "DeWalt HPIT 'Leaner Meaner' Delta XL $18, fair (stain, yellowing); second copy of the Poshmark watch card"
+  },
+  {
+   "id": "ebay:117498908194",
+   "date": "2026-11-03",
+   "verdict": "PASS-SCOPE",
+   "why": "Klein Tools racing tee, Hanes Beefy-T single stitch, 2XL, $20"
+  },
+  {
+   "id": "ebay:336624896884",
+   "date": "2026-11-03",
+   "verdict": "PASS",
+   "why": "Klein Tools 125th Anniversary trucker hat, Graybar '82, $11.99; hat, notable"
+  },
+  {
+   "id": "ebay:186563105194",
+   "date": "2026-11-03",
+   "verdict": "PASS",
+   "why": "Bayside DeWalt logo tee L, undatable late"
+  },
+  {
+   "id": "grailed:111031508",
+   "date": "2026-11-03",
+   "verdict": "PASS",
+   "why": "DeWalt Challenge Hanes XL 23.2in, distressed 7/10, $66 + $18 ship from overseas; cheaper copies on page"
+  },
+  {
+   "id": "depop:thriftmangmy-vintage-hanes-dewalt-challenge-tee-98a4",
+   "date": "2026-11-03",
+   "verdict": "PASS",
+   "why": "Relist of depop thriftmangpy DeWalt Challenge, XL $27.89"
+  },
+  {
+   "id": "depop:calgbpoopin-rare-vintage-90s-thrashed-milwaukee-29ea",
+   "date": "2026-11-03",
+   "verdict": "PASS",
+   "why": "Thrashed Milwaukee hoodie L $80, not a crew, overpriced"
+  },
+  {
+   "id": "depop:angoymullet23-super-rare-vintage-80s-husqvarna-d53f",
+   "date": "2026-11-03",
+   "verdict": "PASS-SCOPE",
+   "why": "80s Husqvarna motocross mesh jersey"
+  },
+  {
+   "id": "poshmark:6ae1303a721f58ea15bf91e8",
+   "date": "2026-11-03",
+   "verdict": "PASS-SCOPE",
+   "why": "Craftsman x NASCAR robot tee XL"
+  },
+  {
+   "id": "mercari:m70983872204",
+   "date": "2026-11-03",
+   "verdict": "PASS",
+   "why": "Modern red Milwaukee Tool logo tee L, $11.50"
+  },
+  {
+   "id": "mercari:m25148909798",
+   "date": "2026-11-03",
+   "verdict": "PASS",
+   "why": "Klein Tools Est. 1857 modern tee XL"
+  },
+  {
+   "id": "mercarijp:m75239023711",
+   "date": "2026-11-03",
+   "verdict": "PASS-SCOPE",
+   "why": "Suzuki Makita Rockstar motocross shirt"
   }
  ]
 }
