@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20",
+ "updated": "2026-11-24",
  "target": {
   "scope": "Vintage (pre-~2005, ideally 80s/90s) tees and crewnecks from tool/trade brands: Milwaukee Electric Tools, Klein Tools, DeWalt, Husqvarna, Kubota, Craftsman, Bosch, Makita, Hitachi, Hilti, Ryobi, Metabo, Husky, Matco, CAT, Stihl, Husqvarna, Black & Decker, Porter-Cable, Ingersoll-Rand, John Deere. OUT OF SCOPE (Drew, 2026-10-06): Snap-on, Mac Tools, and racing shirts of any brand (NASCAR/NHRA/motocross, driver or race-team graphics, incl. DeWalt Sadler/Kenseth) = PASS-SCOPE. Husqvarna (chainsaw/forestry/lawn, not motocross or sewing) and Kubota (tractor/equipment dealer promos; deep supply in Japan as クボタ) are every-run brands (Drew, 2026-10-06).",
   "size": "Men's L or XL only. 90s cuts run a size big — judge by pit-to-pit 22-24 in when stated; ask for measurements when not.",
@@ -35,7 +35,7 @@
   "blocked": [
    "ebay sold/completed comps (CAPTCHA + sign-in wall)"
   ],
-  "notes": "eBay/Etsy/Grailed/Depop/Mercari 403 plain WebFetch — use browser pane; Mercari and Facebook need real Chrome. Depop prices include buyer fees. Grailed is a markup market: find the piece there, buy it on eBay/Mercari. Gem (gem.app) aggregates everything incl. indie shops. Facebook Marketplace not yet swept for this hunt. 2026-10-04: eBay search pages sometimes return 'Error Page' on navigate; in-page fetch('/sch/...') and fetch('/itm/...') from an ebay.com tab work and parse fine. Etsy/Depop/Poshmark also work via same-origin fetch after loading the homepage. 2026-10-05 Makita probe: US eBay 'makita' clothing is mostly POD spam ('Made in USA/AUS S-2XL') + 2000s Team Makita Suzuki MX. Japanese supply lives on jp.mercari.com and auctions.yahoo.co.jp (both render in the in-app browser; search 'makita 企業', 'マキタ 古着', 'マキタ Tシャツ'). Japanese tags run a size small — judge only by 身幅 (body width) in cm: 56-61cm = 22-24in. Buying needs a proxy (Buyee/ZenMarket), roughly +$25-40 landed. 2026-10-08: Mercari US works via the claude-in-chrome extension (navigate + JSON-LD on item pages; strip query strings or the output guard blocks). Gem throws a Human Verification CAPTCHA after ~3 searches. Depop sellers sometimes tag tool tees 'Supreme' for exposure, so Gem/Google catch what brand searches miss. Mercari JP fuzzy-matches クボタ to バックボタン; use 'kubota クボタ' in メンズ. 2026-10-09: the in-app browser tab can hang on a long awaited fetch; fire fetches into window vars and read them back in a second call. eBay item specifics parse best from body text after 'Item specifics'; the description iframe is cross-origin. 2026-10-23: claude-in-chrome did not respond (tabs_context timeout), so Mercari US was not swept or rechecked. Depop webapi fetch is CORS-blocked from depop.com; same-origin fetch of /search/?q= HTML returns 24 product links per query, and product pages carry JSON-LD offers with InStock/SoldOut. eBay item pages always contain a hidden \"We looked everywhere\" template, so test liveness by the Buy It Now/price text, not that string. 2026-10-27: claude-in-chrome not connected again, Mercari US unswept. Depop liveness: the regex for sold is unreliable; test schema.org/InStock vs SoldOut in the product HTML. Grailed renders via hidden same-origin iframes per query. Gem skipped this run. 2026-11-06: claude-in-chrome not connected, Mercari US unswept. Etsy can 403 on the homepage; navigating straight to /search/vintage worked and same-origin fetch ran from there. Yahoo! Auctions search results live in __NEXT_DATA__ (walk it for auctionId/title/price), not in anchors. eBay liveness: check .x-bin-action or the status message 'This listing sold'; a plain 'Buy It Now' string match misses sold items. Depop size sits in the embedded sizes array or main innerText, not JSON-LD. 2026-11-13: claude-in-chrome not connected, Mercari US unswept. No Gmail MCP in the scheduled session, so HOT alerts went out as a push notification. Depop JSON-LD script carries extra attributes; select script[type=\"application/ld+json\"] via DOMParser rather than a regex. 2026-11-17: claude-in-chrome not connected, Mercari US unswept. Poshmark removed listings return 404 on /listing/x-<id>; use that as the gone test. Etsy homepage path 403/404 but same-origin fetch of /search/vintage still returns cards ([data-listing-id] with h3 titles). 2026-11-20: eBay returned 403 'Error Page' for every search and item request: in-browser navigation, same-origin fetch and curl all failed, so it looks IP-level. eBay was not swept and its cards were not re-verified. claude-in-chrome had no connected browser, so Mercari US was unswept. Gem's search renders blank without sign-in. Grailed search via same-origin offscreen iframes, 9s each, run in parallel. Mercari JP search via the same iframe approach. Poshmark search tiles: the title is the a.tile__covershot href slug. Gmail MCP send_message was available and HOT alerts went by email."
+  "notes": "eBay/Etsy/Grailed/Depop/Mercari 403 plain WebFetch — use browser pane; Mercari and Facebook need real Chrome. Depop prices include buyer fees. Grailed is a markup market: find the piece there, buy it on eBay/Mercari. Gem (gem.app) aggregates everything incl. indie shops. Facebook Marketplace not yet swept for this hunt. 2026-10-04: eBay search pages sometimes return 'Error Page' on navigate; in-page fetch('/sch/...') and fetch('/itm/...') from an ebay.com tab work and parse fine. Etsy/Depop/Poshmark also work via same-origin fetch after loading the homepage. 2026-10-05 Makita probe: US eBay 'makita' clothing is mostly POD spam ('Made in USA/AUS S-2XL') + 2000s Team Makita Suzuki MX. Japanese supply lives on jp.mercari.com and auctions.yahoo.co.jp (both render in the in-app browser; search 'makita 企業', 'マキタ 古着', 'マキタ Tシャツ'). Japanese tags run a size small — judge only by 身幅 (body width) in cm: 56-61cm = 22-24in. Buying needs a proxy (Buyee/ZenMarket), roughly +$25-40 landed. 2026-10-08: Mercari US works via the claude-in-chrome extension (navigate + JSON-LD on item pages; strip query strings or the output guard blocks). Gem throws a Human Verification CAPTCHA after ~3 searches. Depop sellers sometimes tag tool tees 'Supreme' for exposure, so Gem/Google catch what brand searches miss. Mercari JP fuzzy-matches クボタ to バックボタン; use 'kubota クボタ' in メンズ. 2026-10-09: the in-app browser tab can hang on a long awaited fetch; fire fetches into window vars and read them back in a second call. eBay item specifics parse best from body text after 'Item specifics'; the description iframe is cross-origin. 2026-10-23: claude-in-chrome did not respond (tabs_context timeout), so Mercari US was not swept or rechecked. Depop webapi fetch is CORS-blocked from depop.com; same-origin fetch of /search/?q= HTML returns 24 product links per query, and product pages carry JSON-LD offers with InStock/SoldOut. eBay item pages always contain a hidden \"We looked everywhere\" template, so test liveness by the Buy It Now/price text, not that string. 2026-10-27: claude-in-chrome not connected again, Mercari US unswept. Depop liveness: the regex for sold is unreliable; test schema.org/InStock vs SoldOut in the product HTML. Grailed renders via hidden same-origin iframes per query. Gem skipped this run. 2026-11-06: claude-in-chrome not connected, Mercari US unswept. Etsy can 403 on the homepage; navigating straight to /search/vintage worked and same-origin fetch ran from there. Yahoo! Auctions search results live in __NEXT_DATA__ (walk it for auctionId/title/price), not in anchors. eBay liveness: check .x-bin-action or the status message 'This listing sold'; a plain 'Buy It Now' string match misses sold items. Depop size sits in the embedded sizes array or main innerText, not JSON-LD. 2026-11-13: claude-in-chrome not connected, Mercari US unswept. No Gmail MCP in the scheduled session, so HOT alerts went out as a push notification. Depop JSON-LD script carries extra attributes; select script[type=\"application/ld+json\"] via DOMParser rather than a regex. 2026-11-17: claude-in-chrome not connected, Mercari US unswept. Poshmark removed listings return 404 on /listing/x-<id>; use that as the gone test. Etsy homepage path 403/404 but same-origin fetch of /search/vintage still returns cards ([data-listing-id] with h3 titles). 2026-11-20: eBay returned 403 'Error Page' for every search and item request: in-browser navigation, same-origin fetch and curl all failed, so it looks IP-level. eBay was not swept and its cards were not re-verified. claude-in-chrome had no connected browser, so Mercari US was unswept. Gem's search renders blank without sign-in. Grailed search via same-origin offscreen iframes, 9s each, run in parallel. Mercari JP search via the same iframe approach. Poshmark search tiles: the title is the a.tile__covershot href slug. Gmail MCP send_message was available and HOT alerts went by email. 2026-11-24: eBay back (same-origin fetch worked for search and items; specifics were lazy-loaded and not in the fetched HTML, so photos were judged directly). claude-in-chrome connected and Mercari US swept via navigate + JSON-LD. Depop JSON-LD price is item + shipping + buyer fee, so card prices move when shipping changes. Yahoo! JP unsold store listings relist under the same id with a new end time."
  },
  "seen": [
   {
@@ -6073,6 +6073,252 @@
    "date": "2026-11-20",
    "verdict": "PASS",
    "why": "Kubota Slugger baseball undershirt, not the tractor brand"
+  },
+  {
+   "id": "depop:doubl7-vintage1994-milwaukee-electric-tools-t-shirt-1868",
+   "date": "2026-11-24",
+   "verdict": "HOT",
+   "why": "1994 Milwaukee Heavy Duty Electric Tools eagle tee, (c)1994 Printworks, FOTL USA L, single stitch, $34.19; pit unstated"
+  },
+  {
+   "id": "depop:rysclosetcy-vintage-stihl-suspenders-tee-cream-a089",
+   "date": "2026-11-24",
+   "verdict": "WATCH",
+   "why": "Stihl suspenders print tee, K-Products USA, L 21.5x30.5, $44.69: over $30 band, half inch small"
+  },
+  {
+   "id": "poshmark:6b027d9e0c8b4797d3559966",
+   "date": "2026-11-24",
+   "verdict": "PASS",
+   "why": "Stihl suspenders tee K-Products, 2XL, $48 (noted on the L card)"
+  },
+  {
+   "id": "ebay:800936128150",
+   "date": "2026-11-24",
+   "verdict": "WATCH",
+   "why": "Orange Husqvarna Leader of the Pack, Jerzees 50/50, XL, $34.95 OBO: cross-listing of the Poshmark/Depop copy"
+  },
+  {
+   "id": "ebay:860171231644",
+   "date": "2026-11-24",
+   "verdict": "WATCH",
+   "why": "Craftsman Keep Your Hands Off My Tools, Hanes Beefy-T XL, $39.99 OBO: pricier copy of the $29.99 card"
+  },
+  {
+   "id": "ebay:227619556402",
+   "date": "2026-11-24",
+   "verdict": "WATCH",
+   "why": "Black Craftsman Guarantees crew FOTL Supercotton L, $65 OBO: over band; $28.59 copy on page"
+  },
+  {
+   "id": "poshmark:6b03ad80221dcb2e3e89df25",
+   "date": "2026-11-24",
+   "verdict": "WATCH",
+   "why": "B&D Property Of Industry & Construction gray crew XL, $60: second copy of the watch card"
+  },
+  {
+   "id": "ebay:407372736808",
+   "date": "2026-11-24",
+   "verdict": "PASS",
+   "why": "Hilti red crew, small embroidered logo, 100% cotton USA, tag XXL"
+  },
+  {
+   "id": "ebay:237195886962",
+   "date": "2026-11-24",
+   "verdict": "PASS",
+   "why": "Bosch \"Invented for life\" tee: 2004+ slogan, modern"
+  },
+  {
+   "id": "ebay:407383601787",
+   "date": "2026-11-24",
+   "verdict": "PASS",
+   "why": "Makita Hammers tee from Japan seller at $160: far over band (same graphic on page at $23.69)"
+  },
+  {
+   "id": "ebay:800931363806",
+   "date": "2026-11-24",
+   "verdict": "PASS",
+   "why": "Swingster Milwaukee Tool Interstate jacket XL $28.99: outerwear"
+  },
+  {
+   "id": "ebay:840157409376",
+   "date": "2026-11-24",
+   "verdict": "PASS",
+   "why": "Klein Tools 130th anniversary 1987 trucker hat $12.95: hat only (notable)"
+  },
+  {
+   "id": "ebay:900014575388",
+   "date": "2026-11-24",
+   "verdict": "PASS",
+   "why": "Klein skull hoodie S-3XL POD"
+  },
+  {
+   "id": "ebay:366249568530",
+   "date": "2026-11-24",
+   "verdict": "PASS",
+   "why": "Klein Est. 1857 tee S-5XL POD"
+  },
+  {
+   "id": "ebay:396098906920",
+   "date": "2026-11-24",
+   "verdict": "PASS",
+   "why": "Klein logo tee S-5XL POD"
+  },
+  {
+   "id": "ebay:317943923199",
+   "date": "2026-11-24",
+   "verdict": "PASS",
+   "why": "Klein racing logo tee S-5XL POD"
+  },
+  {
+   "id": "ebay:287753513787",
+   "date": "2026-11-24",
+   "verdict": "PASS-TASTE",
+   "why": "DeWalt USA flag logo tee, new, 2XL"
+  },
+  {
+   "id": "ebay:147685896261",
+   "date": "2026-11-24",
+   "verdict": "PASS",
+   "why": "DeWalt Guaranteed Tough workwear tee, modern"
+  },
+  {
+   "id": "ebay:198816689318",
+   "date": "2026-11-24",
+   "verdict": "PASS",
+   "why": "Milwaukee Workskin, modern"
+  },
+  {
+   "id": "ebay:257861586613",
+   "date": "2026-11-24",
+   "verdict": "PASS",
+   "why": "Stihl Pro Mark protective shirt, workwear"
+  },
+  {
+   "id": "ebay:168668570860",
+   "date": "2026-11-24",
+   "verdict": "PASS",
+   "why": "Lao-Tze \"Caterpillar\" tee, not CAT brand"
+  },
+  {
+   "id": "depop:anjackjmhnson-vintage-2006-niehaus-open-graphic-482d",
+   "date": "2026-11-24",
+   "verdict": "PASS",
+   "why": "2006 Niehaus Open DeWalt corporate tee, size M"
+  },
+  {
+   "id": "depop:hifyns-vintage-2000s-sick-two-tone-8c20",
+   "date": "2026-11-24",
+   "verdict": "PASS",
+   "why": "2000s Milwaukee two-tone hoodie, undated"
+  },
+  {
+   "id": "depop:lins9_10-clean-90s-vintage-swingster-milwaukee-c4f7",
+   "date": "2026-11-24",
+   "verdict": "PASS",
+   "why": "Swingster Milwaukee pullover windshirt, Korea, outerwear"
+  },
+  {
+   "id": "depop:423_thyiftz-vintage-2002-y2k-mo-knits-40ff",
+   "date": "2026-11-24",
+   "verdict": "PASS-SCOPE",
+   "why": "2002 Kenseth DeWalt Racing tee"
+  },
+  {
+   "id": "depop:radios4acc-vtg-milwaukee-heavy-duty-electric-tools-e9ff",
+   "date": "2026-11-24",
+   "verdict": "PASS",
+   "why": "Milwaukee K-Brand trucker hat, hat only"
+  },
+  {
+   "id": "depop:valliesvontage-vintage-1995-husqvarna-print-size-c029",
+   "date": "2026-11-24",
+   "verdict": "PASS",
+   "why": "1995 Husqvarna print, not apparel"
+  },
+  {
+   "id": "depop:greatqreatfinds-usa-made-husqvarna-chainsaws-sewn-8da6",
+   "date": "2026-11-24",
+   "verdict": "PASS",
+   "why": "Husqvarna patch rope hat"
+  },
+  {
+   "id": "poshmark:6af7837dda3eeb408732fb07",
+   "date": "2026-11-24",
+   "verdict": "PASS",
+   "why": "Plain modern Craftsman crew XL"
+  },
+  {
+   "id": "poshmark:6afcf1ff3dfc00a6541d712c",
+   "date": "2026-11-24",
+   "verdict": "PASS",
+   "why": "Milwaukee joke tee on Gildan, modern"
+  },
+  {
+   "id": "poshmark:6af3c1168cafcc8278a13182",
+   "date": "2026-11-24",
+   "verdict": "PASS",
+   "why": "Bosch advertising bomber jacket, outerwear"
+  },
+  {
+   "id": "poshmark:6afcc45dcbbea5f24907e876",
+   "date": "2026-11-24",
+   "verdict": "PASS",
+   "why": "DeWalt Vantage polo"
+  },
+  {
+   "id": "etsy:4620302666",
+   "date": "2026-11-24",
+   "verdict": "PASS",
+   "why": "Swingster Milwaukee Tool denim button shirt"
+  },
+  {
+   "id": "grailed:113131641",
+   "date": "2026-11-24",
+   "verdict": "PASS",
+   "why": "Milwaukee 100 Years Bayside, 2024"
+  },
+  {
+   "id": "grailed:112545722",
+   "date": "2026-11-24",
+   "verdict": "PASS-SCOPE",
+   "why": "Craftsman NASCAR robot tee"
+  },
+  {
+   "id": "grailed:111406266",
+   "date": "2026-11-24",
+   "verdict": "PASS",
+   "why": "Hitachi Power Tools workwear jacket"
+  },
+  {
+   "id": "mercarijp:m78627399304",
+   "date": "2026-11-24",
+   "verdict": "PASS",
+   "why": "90s \"The Bone\" creeper promo tee, not a target brand, poor condition, ¥16,800"
+  },
+  {
+   "id": "mercarijp:m30613718571",
+   "date": "2026-11-24",
+   "verdict": "PASS",
+   "why": "Ryobi logo tee, 53cm body width"
+  },
+  {
+   "id": "yahoojp:z668269678",
+   "date": "2026-11-24",
+   "verdict": "PASS",
+   "why": "90s Changes makita tee: listing removed before it could be checked"
+  },
+  {
+   "id": "mercari:m47661226829",
+   "date": "2026-11-24",
+   "verdict": "PASS",
+   "why": "Milwaukee Electric Tool modern red graphic tee"
+  },
+  {
+   "id": "mercari:m66864473346",
+   "date": "2026-11-24",
+   "verdict": "PASS-SCOPE",
+   "why": "90s DeWalt Racing tee"
   }
  ]
 }
